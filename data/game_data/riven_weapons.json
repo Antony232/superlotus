@@ -1,0 +1,3765 @@
+[
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdcc",
+    "weapon_name_en": "Kulstar",
+    "weapon_name_zh": "杀星",
+    "weapon_url_name": "kulstar",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1d",
+    "weapon_name_en": "Heliocor",
+    "weapon_name_zh": "赫利俄光锤",
+    "weapon_url_name": "heliocor",
+    "disposition": 1.35,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+    {
+    "weapon_id": "riven_attributes",
+    "mapping": {
+      "punch_through": "穿透",
+      "slash_damage": "切割伤害",
+      "impact_damage": "冲击伤害",
+      "toxin_damage": "毒素伤害",
+      "status_duration": "异常持续时间",
+      "ammo_maximum": "最大弹药量",
+      "recoil": "后坐力",
+      "zoom": "变焦",
+      "channeling_damage": "初始连击",
+      "channeling_efficiency": "重击效率",
+      "critical_chance": "暴击几率",
+      "critical_damage": "暴击伤害",
+      "base_damage_/_melee_damage": "基础伤害/近战伤害",
+      "heat_damage": "火焰伤害",
+      "multishot": "多重射击",
+      "reload_speed": "换弹速度",
+      "range": "攻击范围",
+      "damage_vs_corpus": "对科普斯伤害",
+      "damage_vs_grineer": "对克隆尼伤害",
+      "puncture_damage": "穿刺伤害",
+      "damage_vs_infested": "对感染者伤害",
+      "electric_damage": "电击伤害",
+      "finisher_damage": "处决伤害",
+      "fire_rate_/_attack_speed": "射速/攻击速度",
+      "projectile_speed": "投射物速度",
+      "magazine_capacity": "弹匣容量",
+      "status_chance": "异常几率",
+      "cold_damage": "冰冻伤害",
+      "combo_duration": "连击持续时间",
+      "critical_chance_on_slide_attack": "滑砍暴击几率",
+      "chance_to_gain_extra_combo_count": "额外连击计数几率",
+      "chance_to_gain_combo_count": "获取连击计数几率"
+    }
+  },
+  {
+    "weapon_id": "5cf5724d9597e1019b1678c5",
+    "weapon_name_en": "Nagantaka",
+    "weapon_name_zh": "噬蛇弩",
+    "weapon_url_name": "nagantaka",
+    "disposition": 1.3,
+    "req_mastery_rank": 9,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5cf5724e9597e1019b1678c6",
+    "weapon_name_en": "Ocucor",
+    "weapon_name_zh": "视使之触",
+    "weapon_url_name": "ocucor",
+    "disposition": 1.2,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5cf5724f9597e1019b1678c7",
+    "weapon_name_en": "Falcor",
+    "weapon_name_zh": "猎鹰轮",
+    "weapon_url_name": "falcor",
+    "disposition": 1.3,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cf572509597e1019b1678c8",
+    "weapon_name_en": "Paracesis",
+    "weapon_name_zh": "心智之殁",
+    "weapon_url_name": "paracesis",
+    "disposition": 0.6,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cf572529597e1019b1678ca",
+    "weapon_name_en": "Exergis",
+    "weapon_name_zh": "晶能放射器",
+    "weapon_url_name": "exergis",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5cf572549597e1019b1678cf",
+    "weapon_name_en": "Battacor",
+    "weapon_name_zh": "武使之力",
+    "weapon_url_name": "battacor",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc3",
+    "weapon_name_en": "Euphona Prime",
+    "weapon_name_zh": "悦音 Prime",
+    "weapon_url_name": "euphona_prime",
+    "disposition": 0.95,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc5",
+    "weapon_name_en": "Fusilai",
+    "weapon_name_zh": "齐射玻刃",
+    "weapon_url_name": "fusilai",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdce",
+    "weapon_name_en": "Lato",
+    "weapon_name_zh": "拉托",
+    "weapon_url_name": "lato",
+    "disposition": 1.4,
+    "req_mastery_rank": 0,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd0",
+    "weapon_name_en": "Magnus",
+    "weapon_name_zh": "麦格努斯",
+    "weapon_url_name": "magnus",
+    "disposition": 1.53,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde9",
+    "weapon_name_en": "Ack & Brunt",
+    "weapon_name_zh": "认知 & 冲击",
+    "weapon_url_name": "ack_and_brunt",
+    "disposition": 1.35,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdea",
+    "weapon_name_en": "Amphis",
+    "weapon_name_zh": "双头蛇",
+    "weapon_url_name": "amphis",
+    "disposition": 1.5,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdeb",
+    "weapon_name_en": "Anku",
+    "weapon_name_zh": "夺魂死神",
+    "weapon_url_name": "anku",
+    "disposition": 1.46,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fded",
+    "weapon_name_en": "Arca Titron",
+    "weapon_name_zh": "弧电振子锤",
+    "weapon_url_name": "arca_titron",
+    "disposition": 1.3,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdef",
+    "weapon_name_en": "Balla",
+    "weapon_name_zh": "宝拉",
+    "weapon_url_name": "balla",
+    "disposition": 0.8,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf1",
+    "weapon_name_en": "Boltace",
+    "weapon_name_zh": "螺钉拐刃",
+    "weapon_url_name": "boltace",
+    "disposition": 1.25,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf3",
+    "weapon_name_en": "Broken War",
+    "weapon_name_zh": "破碎的战争之剑",
+    "weapon_url_name": "broken_war",
+    "disposition": 1.15,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf5",
+    "weapon_name_en": "Caustacyst",
+    "weapon_name_zh": "灼蚀变体镰",
+    "weapon_url_name": "caustacyst",
+    "disposition": 1.3,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf7",
+    "weapon_name_en": "Cerata",
+    "weapon_name_zh": "裸鳃刃",
+    "weapon_url_name": "cerata",
+    "disposition": 1.25,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1a",
+    "weapon_name_en": "Hate",
+    "weapon_name_zh": "憎恨",
+    "weapon_url_name": "hate",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd95",
+    "weapon_name_en": "Soma",
+    "weapon_name_zh": "月神",
+    "weapon_url_name": "soma",
+    "disposition": 1.15,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9a",
+    "weapon_name_en": "Synapse",
+    "weapon_name_zh": "突触生化枪",
+    "weapon_url_name": "synapse",
+    "disposition": 1.31,
+    "req_mastery_rank": 11,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9e",
+    "weapon_name_en": "Tigris",
+    "weapon_name_zh": "猛虎",
+    "weapon_url_name": "tigris",
+    "disposition": 1.1,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9f",
+    "weapon_name_en": "Tonkor",
+    "weapon_name_zh": "征服榴炮",
+    "weapon_url_name": "tonkor",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda0",
+    "weapon_name_en": "Torid",
+    "weapon_name_zh": "托里德",
+    "weapon_url_name": "torid",
+    "disposition": 1.3,
+    "req_mastery_rank": 4,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda1",
+    "weapon_name_en": "Vectis",
+    "weapon_name_zh": "守望者",
+    "weapon_url_name": "vectis",
+    "disposition": 1.15,
+    "req_mastery_rank": 2,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda2",
+    "weapon_name_en": "Veldt",
+    "weapon_name_zh": "草原猎手",
+    "weapon_url_name": "veldt",
+    "disposition": 1.3,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda3",
+    "weapon_name_en": "Vulkar",
+    "weapon_name_zh": "金工火神",
+    "weapon_url_name": "vulkar",
+    "disposition": 1.45,
+    "req_mastery_rank": 3,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda4",
+    "weapon_name_en": "Zarr",
+    "weapon_name_zh": "沙皇",
+    "weapon_url_name": "zarr",
+    "disposition": 1.15,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda5",
+    "weapon_name_en": "Zenith",
+    "weapon_name_zh": "天穹之顶",
+    "weapon_url_name": "zenith",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda6",
+    "weapon_name_en": "Zhuge",
+    "weapon_name_zh": "诸葛连弩",
+    "weapon_url_name": "zhuge",
+    "disposition": 1.2,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda7",
+    "weapon_name_en": "Acrid",
+    "weapon_name_zh": "阿克里德",
+    "weapon_url_name": "acrid",
+    "disposition": 1.33,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda8",
+    "weapon_name_en": "Afuris",
+    "weapon_name_zh": "盗贼双枪",
+    "weapon_url_name": "afuris",
+    "disposition": 1.45,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fda9",
+    "weapon_name_en": "Akbolto",
+    "weapon_name_zh": "螺钉双枪",
+    "weapon_url_name": "akbolto",
+    "disposition": 1.3,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdaa",
+    "weapon_name_en": "Akbronco",
+    "weapon_name_zh": "野马双枪",
+    "weapon_url_name": "akbronco",
+    "disposition": 1.35,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdab",
+    "weapon_name_en": "Akjagara",
+    "weapon_name_zh": "觉醒双枪",
+    "weapon_url_name": "akjagara",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdac",
+    "weapon_name_en": "Aklato",
+    "weapon_name_zh": "拉托双枪",
+    "weapon_url_name": "aklato",
+    "disposition": 1.52,
+    "req_mastery_rank": 3,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb4",
+    "weapon_name_en": "Arca Scisco",
+    "weapon_name_zh": "弧电探知者",
+    "weapon_url_name": "arca_scisco",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdbd",
+    "weapon_name_en": "Cycron",
+    "weapon_name_zh": "循环离子枪",
+    "weapon_url_name": "cycron",
+    "disposition": 1.2,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdbf",
+    "weapon_name_en": "Detron",
+    "weapon_name_zh": "德特昂",
+    "weapon_url_name": "detron",
+    "disposition": 1.15,
+    "req_mastery_rank": 6,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc2",
+    "weapon_name_en": "Embolist",
+    "weapon_name_zh": "安柏勒斯",
+    "weapon_url_name": "embolist",
+    "disposition": 1.4,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe07",
+    "weapon_name_en": "Dual Kamas",
+    "weapon_name_zh": "双短柄战镰",
+    "weapon_url_name": "dual_kamas",
+    "disposition": 1.35,
+    "req_mastery_rank": 1,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5dbe9b057ea27b0ffe3ca264",
+    "weapon_name_en": "Kuva Shildeg",
+    "weapon_name_zh": "赤毒·希尔德",
+    "weapon_url_name": "kuva_shildeg",
+    "disposition": 0.8,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5dbe9b057ea27b0ffe3ca266",
+    "weapon_name_en": "Kuva Ayanga",
+    "weapon_name_zh": "赤毒·怒雷",
+    "weapon_url_name": "kuva_ayanga",
+    "disposition": 0.95,
+    "req_mastery_rank": 13,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5fbd7b6fc34da301176015bc",
+    "weapon_name_en": "Vermisplicer",
+    "weapon_name_zh": "虫置",
+    "weapon_url_name": "vermisplicer",
+    "disposition": 1.15,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5fbd7b6fc34da301176015bd",
+    "weapon_name_en": "Sporelacer",
+    "weapon_name_zh": "孢射",
+    "weapon_url_name": "sporelacer",
+    "disposition": 0.6,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd62",
+    "weapon_name_en": "Argonak",
+    "weapon_name_zh": "氩格纳克",
+    "weapon_url_name": "argonak",
+    "disposition": 1.25,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdbb",
+    "weapon_name_en": "Castanas",
+    "weapon_name_zh": "雷爆信镖",
+    "weapon_url_name": "castanas",
+    "disposition": 1.4,
+    "req_mastery_rank": 3,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdbc",
+    "weapon_name_en": "Cestra",
+    "weapon_name_zh": "锡斯特",
+    "weapon_url_name": "cestra",
+    "disposition": 1.52,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc1",
+    "weapon_name_en": "Dual Toxocyst",
+    "weapon_name_zh": "毒囊双枪",
+    "weapon_url_name": "dual_toxocyst",
+    "disposition": 1.35,
+    "req_mastery_rank": 11,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc8",
+    "weapon_name_en": "Hystrix",
+    "weapon_name_zh": "豪猪",
+    "weapon_url_name": "hystrix",
+    "disposition": 1.2,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe11",
+    "weapon_name_en": "Fragor",
+    "weapon_name_zh": "重击巨锤",
+    "weapon_url_name": "fragor",
+    "disposition": 1.2,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe13",
+    "weapon_name_en": "Galatine",
+    "weapon_name_zh": "迦伦提恩",
+    "weapon_url_name": "galatine",
+    "disposition": 1.05,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe14",
+    "weapon_name_en": "Gazal Machete",
+    "weapon_name_zh": "加扎勒反曲刀",
+    "weapon_url_name": "gazal_machete",
+    "disposition": 1.4,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe16",
+    "weapon_name_en": "Gram",
+    "weapon_name_zh": "格拉姆",
+    "weapon_url_name": "gram",
+    "disposition": 1.44,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe17",
+    "weapon_name_en": "Guandao",
+    "weapon_name_zh": "关刀",
+    "weapon_url_name": "guandao",
+    "disposition": 1.05,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe18",
+    "weapon_name_en": "Gunsen",
+    "weapon_name_zh": "军扇",
+    "weapon_url_name": "gunsen",
+    "disposition": 1.35,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0a",
+    "weapon_name_en": "Dual Skana",
+    "weapon_name_zh": "空刃双刀",
+    "weapon_url_name": "dual_skana",
+    "disposition": 1.48,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe21",
+    "weapon_name_en": "Jaw Sword",
+    "weapon_name_zh": "蛇颚刀",
+    "weapon_url_name": "jaw_sword",
+    "disposition": 1.4,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe24",
+    "weapon_name_en": "Kesheg",
+    "weapon_name_zh": "怯薛",
+    "weapon_url_name": "kesheg",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe25",
+    "weapon_name_en": "Kestrel",
+    "weapon_name_zh": "红隼",
+    "weapon_url_name": "kestrel",
+    "disposition": 1.45,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe29",
+    "weapon_name_en": "Kronsh",
+    "weapon_name_zh": "客隆什",
+    "weapon_url_name": "kronsh",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb7",
+    "weapon_name_en": "Ballistica",
+    "weapon_name_zh": "布里斯提卡",
+    "weapon_url_name": "ballistica",
+    "disposition": 1.25,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1b",
+    "weapon_name_en": "Heat Dagger",
+    "weapon_name_zh": "烈焰匕首",
+    "weapon_url_name": "heat_dagger",
+    "disposition": 1.44,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1f",
+    "weapon_name_en": "Jat Kittag",
+    "weapon_name_zh": "喷射战锤",
+    "weapon_url_name": "jat_kittag",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd8",
+    "weapon_name_en": "Sonicor",
+    "weapon_name_zh": "超音波冲击枪",
+    "weapon_url_name": "sonicor",
+    "disposition": 1.15,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5ced51e0cd3f0b0098a3862e",
+    "weapon_name_en": "Tombfinger",
+    "weapon_name_zh": "墓指",
+    "weapon_url_name": "tombfinger",
+    "disposition": 0.85,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5ced51e2cd3f0b0098a3862f",
+    "weapon_name_en": "Gaze",
+    "weapon_name_zh": "凝目",
+    "weapon_url_name": "gaze",
+    "disposition": 0.95,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5cf572509597e1019b1678c9",
+    "weapon_name_en": "Pupacyst",
+    "weapon_name_zh": "毒囊骨茧",
+    "weapon_url_name": "pupacyst",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd61",
+    "weapon_name_en": "Arca Plasmor",
+    "weapon_name_zh": "弧电离子枪",
+    "weapon_url_name": "arca_plasmor",
+    "disposition": 0.95,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5cf572579597e1019b1678d4",
+    "weapon_name_en": "Galvacord",
+    "weapon_name_zh": "电流刺索",
+    "weapon_url_name": "galvacord",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdba",
+    "weapon_name_en": "Bronco",
+    "weapon_name_zh": "野马",
+    "weapon_url_name": "bronco",
+    "disposition": 1.45,
+    "req_mastery_rank": 0,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc0",
+    "weapon_name_en": "Dual Cestra",
+    "weapon_name_zh": "锡斯特双枪",
+    "weapon_url_name": "dual_cestra",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc4",
+    "weapon_name_en": "Furis",
+    "weapon_name_zh": "盗贼",
+    "weapon_url_name": "furis",
+    "disposition": 1.35,
+    "req_mastery_rank": 1,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdec",
+    "weapon_name_en": "Ankyros",
+    "weapon_name_zh": "甲龙双拳",
+    "weapon_url_name": "ankyros",
+    "disposition": 1.5,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdee",
+    "weapon_name_en": "Atterax",
+    "weapon_name_zh": "阿特拉克斯",
+    "weapon_url_name": "atterax",
+    "disposition": 1.15,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf0",
+    "weapon_name_en": "Bo",
+    "weapon_name_zh": "玻之武杖",
+    "weapon_url_name": "bo",
+    "disposition": 1.35,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf4",
+    "weapon_name_en": "Cassowar",
+    "weapon_name_zh": "鹤鸵长戟",
+    "weapon_url_name": "cassowar",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf6",
+    "weapon_name_en": "Ceramic Dagger",
+    "weapon_name_zh": "陶瓷匕首",
+    "weapon_url_name": "ceramic_dagger",
+    "disposition": 1.43,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe19",
+    "weapon_name_en": "Halikar",
+    "weapon_name_zh": "哈利卡",
+    "weapon_url_name": "halikar",
+    "disposition": 1.44,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1e",
+    "weapon_name_en": "Hirudo",
+    "weapon_name_zh": "蚂蟥",
+    "weapon_url_name": "hirudo",
+    "disposition": 1.1,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe31",
+    "weapon_name_en": "Mire",
+    "weapon_name_zh": "米尔",
+    "weapon_url_name": "mire",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe56",
+    "weapon_name_en": "Twin Krohkur",
+    "weapon_name_zh": "双子克鲁古尔",
+    "weapon_url_name": "twin_krohkur",
+    "disposition": 1.2,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd81",
+    "weapon_name_en": "Latron",
+    "weapon_name_zh": "拉特昂",
+    "weapon_url_name": "latron",
+    "disposition": 1.4,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd82",
+    "weapon_name_en": "Lenz",
+    "weapon_name_zh": "楞次弓",
+    "weapon_url_name": "lenz",
+    "disposition": 1.05,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd83",
+    "weapon_name_en": "Miter",
+    "weapon_name_zh": "米特尔",
+    "weapon_url_name": "miter",
+    "disposition": 1.5,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd84",
+    "weapon_name_en": "Mutalist Cernos",
+    "weapon_name_zh": "异融西诺斯",
+    "weapon_url_name": "mutalist_cernos",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd85",
+    "weapon_name_en": "Mutalist Quanta",
+    "weapon_name_zh": "异融量子枪",
+    "weapon_url_name": "mutalist_quanta",
+    "disposition": 1.5,
+    "req_mastery_rank": 2,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd87",
+    "weapon_name_en": "Opticor",
+    "weapon_name_zh": "奥堤克光子枪",
+    "weapon_url_name": "opticor",
+    "disposition": 1.15,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd88",
+    "weapon_name_en": "Panthera",
+    "weapon_name_zh": "猎豹",
+    "weapon_url_name": "panthera",
+    "disposition": 1.4,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8b",
+    "weapon_name_en": "Penta",
+    "weapon_name_zh": "潘塔",
+    "weapon_url_name": "penta",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8c",
+    "weapon_name_en": "Phage",
+    "weapon_name_zh": "噬菌者",
+    "weapon_url_name": "phage",
+    "disposition": 1.46,
+    "req_mastery_rank": 11,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8d",
+    "weapon_name_en": "Phantasma",
+    "weapon_name_zh": "幻离子",
+    "weapon_url_name": "phantasma",
+    "disposition": 1.1,
+    "req_mastery_rank": 9,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8e",
+    "weapon_name_en": "Quanta",
+    "weapon_name_zh": "量子切割器",
+    "weapon_url_name": "quanta",
+    "disposition": 1.4,
+    "req_mastery_rank": 4,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd90",
+    "weapon_name_en": "Rubico",
+    "weapon_name_zh": "绝路",
+    "weapon_url_name": "rubico",
+    "disposition": 0.95,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd92",
+    "weapon_name_en": "Simulor",
+    "weapon_name_zh": "重力奇点拟成枪",
+    "weapon_url_name": "simulor",
+    "disposition": 1.25,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd93",
+    "weapon_name_en": "Snipetron",
+    "weapon_name_zh": "狙击特昂",
+    "weapon_url_name": "snipetron",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd94",
+    "weapon_name_en": "Sobek",
+    "weapon_name_zh": "鳄神",
+    "weapon_url_name": "sobek",
+    "disposition": 1.33,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd96",
+    "weapon_name_en": "Stradavar",
+    "weapon_name_zh": "斯特拉迪瓦",
+    "weapon_url_name": "stradavar",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd97",
+    "weapon_name_en": "Strun",
+    "weapon_name_zh": "斯特朗",
+    "weapon_url_name": "strun",
+    "disposition": 1.4,
+    "req_mastery_rank": 1,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd99",
+    "weapon_name_en": "Sybaris",
+    "weapon_name_zh": "席芭莉丝",
+    "weapon_url_name": "sybaris",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9c",
+    "weapon_name_en": "Tetra",
+    "weapon_name_zh": "特拉",
+    "weapon_url_name": "tetra",
+    "disposition": 1.5,
+    "req_mastery_rank": 3,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc6",
+    "weapon_name_en": "Gammacor",
+    "weapon_name_zh": "咖玛腕甲枪",
+    "weapon_url_name": "gammacor",
+    "disposition": 1.15,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd2",
+    "weapon_name_en": "Nukor",
+    "weapon_name_zh": "努寇微波枪",
+    "weapon_url_name": "nukor",
+    "disposition": 1.45,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd3",
+    "weapon_name_en": "Pandero",
+    "weapon_name_zh": "手鼓",
+    "weapon_url_name": "pandero",
+    "disposition": 1.2,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd4",
+    "weapon_name_en": "Pox",
+    "weapon_name_zh": "脓痘",
+    "weapon_url_name": "pox",
+    "disposition": 1.2,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd5",
+    "weapon_name_en": "Pyrana",
+    "weapon_name_zh": "食人鱼",
+    "weapon_url_name": "pyrana",
+    "disposition": 0.95,
+    "req_mastery_rank": 12,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd7",
+    "weapon_name_en": "Sicarus",
+    "weapon_name_zh": "暗杀者",
+    "weapon_url_name": "sicarus",
+    "disposition": 1.2,
+    "req_mastery_rank": 3,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdda",
+    "weapon_name_en": "Spira",
+    "weapon_name_zh": "旋刃飞刀",
+    "weapon_url_name": "spira",
+    "disposition": 1.35,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdfe",
+    "weapon_name_en": "Dehtat",
+    "weapon_name_zh": "德塔特",
+    "weapon_url_name": "dehtat",
+    "disposition": 1.25,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdff",
+    "weapon_name_en": "Destreza",
+    "weapon_name_zh": "技巧之剑",
+    "weapon_url_name": "destreza",
+    "disposition": 1.25,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe00",
+    "weapon_name_en": "Dex Dakra",
+    "weapon_name_zh": "Dex 达克拉双剑",
+    "weapon_url_name": "dex_dakra",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe01",
+    "weapon_name_en": "Dokrahm",
+    "weapon_name_zh": "多克拉姆",
+    "weapon_url_name": "dokrahm",
+    "disposition": 0.75,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe02",
+    "weapon_name_en": "Dragon Nikana",
+    "weapon_name_zh": "龙之侍刃",
+    "weapon_url_name": "dragon_nikana",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe03",
+    "weapon_name_en": "Dual Cleavers",
+    "weapon_name_zh": "斩肉双刀",
+    "weapon_url_name": "dual_cleavers",
+    "disposition": 1.2,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe04",
+    "weapon_name_en": "Dual Ether",
+    "weapon_name_zh": "苍穹双剑",
+    "weapon_url_name": "dual_ether",
+    "disposition": 1.45,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe05",
+    "weapon_name_en": "Dual Heat Swords",
+    "weapon_name_zh": "烈焰双剑",
+    "weapon_url_name": "dual_heat_swords",
+    "disposition": 1.44,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe06",
+    "weapon_name_en": "Dual Ichor",
+    "weapon_name_zh": "恶脓双斧",
+    "weapon_url_name": "dual_ichor",
+    "disposition": 1.25,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe08",
+    "weapon_name_en": "Dual Keres",
+    "weapon_name_zh": "凯瑞斯双刀",
+    "weapon_url_name": "dual_keres",
+    "disposition": 1.1,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe22",
+    "weapon_name_en": "Kama",
+    "weapon_name_zh": "短柄战镰",
+    "weapon_url_name": "kama",
+    "disposition": 1.47,
+    "req_mastery_rank": 1,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe26",
+    "weapon_name_en": "Kogake",
+    "weapon_name_zh": "科加基",
+    "weapon_url_name": "kogake",
+    "disposition": 1.46,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5d70ebe17ea27b064d455074",
+    "weapon_name_en": "Multron",
+    "weapon_name_zh": "多连穿甲枪",
+    "weapon_url_name": "multron",
+    "disposition": 1,
+    "req_mastery_rank": 3,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5d70ebe17ea27b064d455075",
+    "weapon_name_en": "Vulcax",
+    "weapon_name_zh": "金工火舌",
+    "weapon_url_name": "vulcax",
+    "disposition": 1,
+    "req_mastery_rank": 14,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5dbe9b047ea27b0ffe3ca262",
+    "weapon_name_en": "Masseter",
+    "weapon_name_zh": "咀嚼金杖",
+    "weapon_url_name": "masseter",
+    "disposition": 1.25,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5dbe9b057ea27b0ffe3ca263",
+    "weapon_name_en": "Pathocyst",
+    "weapon_name_zh": "病囊飞刃",
+    "weapon_url_name": "pathocyst",
+    "disposition": 1.3,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5dbe9b057ea27b0ffe3ca265",
+    "weapon_name_en": "Kuva Chakkhurr",
+    "weapon_name_zh": "赤毒·邪眼",
+    "weapon_url_name": "kuva_chakkhurr",
+    "disposition": 0.95,
+    "req_mastery_rank": 15,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2b",
+    "weapon_name_en": "Lecta",
+    "weapon_name_zh": "勒克塔",
+    "weapon_url_name": "lecta",
+    "disposition": 1.25,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2d",
+    "weapon_name_en": "Machete",
+    "weapon_name_zh": "马谢特砍刀",
+    "weapon_url_name": "machete",
+    "disposition": 1.45,
+    "req_mastery_rank": 1,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2e",
+    "weapon_name_en": "Magistar",
+    "weapon_name_zh": "执法者",
+    "weapon_url_name": "magistar",
+    "disposition": 1.35,
+    "req_mastery_rank": 1,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2f",
+    "weapon_name_en": "Mewan",
+    "weapon_name_zh": "密丸",
+    "weapon_url_name": "mewan",
+    "disposition": 1.15,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe30",
+    "weapon_name_en": "Mios",
+    "weapon_name_zh": "牡狮神",
+    "weapon_url_name": "mios",
+    "disposition": 1.3,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe41",
+    "weapon_name_en": "Rabvee",
+    "weapon_name_zh": "拉比威",
+    "weapon_url_name": "rabvee",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe59",
+    "weapon_name_en": "War",
+    "weapon_name_zh": "战争之剑",
+    "weapon_url_name": "war",
+    "disposition": 1.05,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5b",
+    "weapon_name_en": "Artax",
+    "weapon_name_zh": "阿塔克斯",
+    "weapon_url_name": "artax",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5c",
+    "weapon_name_en": "Burst Laser",
+    "weapon_name_zh": "激光点发",
+    "weapon_url_name": "burst_laser",
+    "disposition": 1.45,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5e",
+    "weapon_name_en": "Deth Machine Rifle",
+    "weapon_name_zh": "死亡机枪",
+    "weapon_url_name": "deth_machine_rifle",
+    "disposition": 1.46,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5f",
+    "weapon_name_en": "Laser Rifle",
+    "weapon_name_zh": "激光步枪",
+    "weapon_url_name": "laser_rifle",
+    "disposition": 1.21,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd63",
+    "weapon_name_en": "Astilla",
+    "weapon_name_zh": "碎裂者",
+    "weapon_url_name": "astilla",
+    "disposition": 1.25,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd65",
+    "weapon_name_en": "Baza",
+    "weapon_name_zh": "苍鹰",
+    "weapon_url_name": "baza",
+    "disposition": 1.05,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd66",
+    "weapon_name_en": "Boar",
+    "weapon_name_zh": "野猪",
+    "weapon_url_name": "boar",
+    "disposition": 1.45,
+    "req_mastery_rank": 2,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd73",
+    "weapon_name_en": "Flux Rifle",
+    "weapon_name_zh": "通量步枪",
+    "weapon_url_name": "flux_rifle",
+    "disposition": 1.55,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf8",
+    "weapon_name_en": "Cronus",
+    "weapon_name_zh": "克洛诺斯",
+    "weapon_url_name": "cronus",
+    "disposition": 1.48,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0c",
+    "weapon_name_en": "Endura",
+    "weapon_name_zh": "三叶坚韧",
+    "weapon_url_name": "endura",
+    "disposition": 1.4,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe15",
+    "weapon_name_en": "Glaive",
+    "weapon_name_zh": "战刃",
+    "weapon_url_name": "glaive",
+    "disposition": 1.3,
+    "req_mastery_rank": 1,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe1c",
+    "weapon_name_en": "Heat Sword",
+    "weapon_name_zh": "烈焰长剑",
+    "weapon_url_name": "heat_sword",
+    "disposition": 1.48,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe20",
+    "weapon_name_en": "Jat Kusar",
+    "weapon_name_zh": "喷射锁镰",
+    "weapon_url_name": "jat_kusar",
+    "disposition": 1.2,
+    "req_mastery_rank": 11,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe32",
+    "weapon_name_en": "Nami Skyla",
+    "weapon_name_zh": "海波斯库拉对剑",
+    "weapon_url_name": "nami_skyla",
+    "disposition": 1.3,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe33",
+    "weapon_name_en": "Nami Solo",
+    "weapon_name_zh": "海波单剑",
+    "weapon_url_name": "nami_solo",
+    "disposition": 1.43,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe34",
+    "weapon_name_en": "Nikana",
+    "weapon_name_zh": "侍刃",
+    "weapon_url_name": "nikana",
+    "disposition": 0.95,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe35",
+    "weapon_name_en": "Ninkondi",
+    "weapon_name_zh": "降灵追猎者",
+    "weapon_url_name": "ninkondi",
+    "disposition": 1.41,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe36",
+    "weapon_name_en": "Obex",
+    "weapon_name_zh": "奥比克斯",
+    "weapon_url_name": "obex",
+    "disposition": 1.3,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe37",
+    "weapon_name_en": "Ohma",
+    "weapon_name_zh": "欧玛",
+    "weapon_url_name": "ohma",
+    "disposition": 1.25,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe38",
+    "weapon_name_en": "Okina",
+    "weapon_name_zh": "翁",
+    "weapon_url_name": "okina",
+    "disposition": 1.4,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe39",
+    "weapon_name_en": "Ooltha",
+    "weapon_name_zh": "乌尔萨",
+    "weapon_url_name": "ooltha",
+    "disposition": 1.25,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3a",
+    "weapon_name_en": "Orthos",
+    "weapon_name_zh": "欧特鲁斯",
+    "weapon_url_name": "orthos",
+    "disposition": 1,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3b",
+    "weapon_name_en": "Orvius",
+    "weapon_name_zh": "灵枢",
+    "weapon_url_name": "orvius",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3c",
+    "weapon_name_en": "Pangolin Sword",
+    "weapon_name_zh": "鲮鲤剑",
+    "weapon_url_name": "pangolin_sword",
+    "disposition": 1.47,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3d",
+    "weapon_name_en": "Plague Keewar",
+    "weapon_name_zh": "瘟疫 奇沃",
+    "weapon_url_name": "plague_keewar",
+    "disposition": 0.8,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3e",
+    "weapon_name_en": "Plague Kripath",
+    "weapon_name_zh": "瘟疫 克里帕丝",
+    "weapon_url_name": "plague_kripath",
+    "disposition": 0.6,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe3f",
+    "weapon_name_en": "Plasma Sword",
+    "weapon_name_zh": "等离子长剑",
+    "weapon_url_name": "plasma_sword",
+    "disposition": 1.48,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe40",
+    "weapon_name_en": "Prova",
+    "weapon_name_zh": "普罗沃",
+    "weapon_url_name": "prova",
+    "disposition": 1.4,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe43",
+    "weapon_name_en": "Redeemer",
+    "weapon_name_zh": "救赎者",
+    "weapon_url_name": "redeemer",
+    "disposition": 1.05,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4f",
+    "weapon_name_en": "Skana",
+    "weapon_name_zh": "空刃",
+    "weapon_url_name": "skana",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd78",
+    "weapon_name_en": "Harpak",
+    "weapon_name_zh": "哈帕克",
+    "weapon_url_name": "harpak",
+    "disposition": 1.55,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7a",
+    "weapon_name_en": "Hema",
+    "weapon_name_zh": "血肢",
+    "weapon_url_name": "hema",
+    "disposition": 1.3,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7b",
+    "weapon_name_en": "Hind",
+    "weapon_name_zh": "雌鹿",
+    "weapon_url_name": "hind",
+    "disposition": 1.42,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7c",
+    "weapon_name_en": "Ignis",
+    "weapon_name_zh": "伊格尼斯",
+    "weapon_url_name": "ignis",
+    "disposition": 0.65,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7d",
+    "weapon_name_en": "Javlok",
+    "weapon_name_zh": "燃焰标枪",
+    "weapon_url_name": "javlok",
+    "disposition": 1.3,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7e",
+    "weapon_name_en": "Karak",
+    "weapon_name_zh": "卡拉克",
+    "weapon_url_name": "karak",
+    "disposition": 1.35,
+    "req_mastery_rank": 1,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd7f",
+    "weapon_name_en": "Kohm",
+    "weapon_name_zh": "寇恩热能枪",
+    "weapon_url_name": "kohm",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd80",
+    "weapon_name_en": "Lanka",
+    "weapon_name_zh": "兰卡",
+    "weapon_url_name": "lanka",
+    "disposition": 1.05,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8a",
+    "weapon_name_en": "Paris",
+    "weapon_name_zh": "帕里斯",
+    "weapon_url_name": "paris",
+    "disposition": 1.4,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd8f",
+    "weapon_name_en": "Quartakk",
+    "weapon_name_zh": "夸塔克",
+    "weapon_url_name": "quartakk",
+    "disposition": 1.25,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd91",
+    "weapon_name_en": "Scourge",
+    "weapon_name_zh": "祸根",
+    "weapon_url_name": "scourge",
+    "disposition": 1.2,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd9",
+    "weapon_name_en": "Spectra",
+    "weapon_name_zh": "光谱切割器",
+    "weapon_url_name": "spectra",
+    "disposition": 1.49,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fddb",
+    "weapon_name_en": "Staticor",
+    "weapon_name_zh": "静电能量导引枪",
+    "weapon_url_name": "staticor",
+    "disposition": 0.9,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fddc",
+    "weapon_name_en": "Stubba",
+    "weapon_name_zh": "史度巴",
+    "weapon_url_name": "stubba",
+    "disposition": 1.35,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fddd",
+    "weapon_name_en": "Stug",
+    "weapon_name_zh": "史特克",
+    "weapon_url_name": "stug",
+    "disposition": 1.48,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdde",
+    "weapon_name_en": "Talons",
+    "weapon_name_zh": "鹰爪",
+    "weapon_url_name": "talons",
+    "disposition": 1.44,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fddf",
+    "weapon_name_en": "Twin Grakatas",
+    "weapon_name_zh": "双子葛拉卡达",
+    "weapon_url_name": "twin_grakatas",
+    "disposition": 1.2,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde0",
+    "weapon_name_en": "Twin Gremlins",
+    "weapon_name_zh": "双子小精灵",
+    "weapon_url_name": "twin_gremlins",
+    "disposition": 1.2,
+    "req_mastery_rank": 5,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde1",
+    "weapon_name_en": "Twin Kohmak",
+    "weapon_name_zh": "双子寇恩霰机枪",
+    "weapon_url_name": "twin_kohmak",
+    "disposition": 1.25,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde2",
+    "weapon_name_en": "Twin Rogga",
+    "weapon_name_zh": "双子罗格",
+    "weapon_url_name": "twin_rogga",
+    "disposition": 1.3,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde3",
+    "weapon_name_en": "Twin Vipers",
+    "weapon_name_zh": "双子蝰蛇",
+    "weapon_url_name": "twin_vipers",
+    "disposition": 1.45,
+    "req_mastery_rank": 5,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde4",
+    "weapon_name_en": "Tysis",
+    "weapon_name_zh": "啐沫者",
+    "weapon_url_name": "tysis",
+    "disposition": 1.45,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde5",
+    "weapon_name_en": "Vasto",
+    "weapon_name_zh": "瓦斯托",
+    "weapon_url_name": "vasto",
+    "disposition": 1.4,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde6",
+    "weapon_name_en": "Viper",
+    "weapon_name_zh": "蝰蛇",
+    "weapon_url_name": "viper",
+    "disposition": 1.45,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde8",
+    "weapon_name_en": "Zylok",
+    "weapon_name_zh": "席尔火枪",
+    "weapon_url_name": "zylok",
+    "disposition": 1.25,
+    "req_mastery_rank": 6,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdfa",
+    "weapon_name_en": "Dakra Prime",
+    "weapon_name_zh": "达克拉 Prime",
+    "weapon_url_name": "dakra_prime",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdfb",
+    "weapon_name_en": "Dark Dagger",
+    "weapon_name_zh": "暗黑匕首",
+    "weapon_url_name": "dark_dagger",
+    "disposition": 1.1,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5dc2d8bbff08fd007d021a44",
+    "weapon_name_en": "Kuva Twin Stubbas",
+    "weapon_name_zh": "赤毒·双子史度巴",
+    "weapon_url_name": "kuva_twin_stubbas",
+    "disposition": 0.95,
+    "req_mastery_rank": 13,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5e02154d14569703bf43e548",
+    "weapon_name_en": "Pennant",
+    "weapon_name_zh": "尖幡",
+    "weapon_url_name": "pennant",
+    "disposition": 0.95,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5e41458f7b0275011bc5b7cc",
+    "weapon_name_en": "Kuva Bramma",
+    "weapon_name_zh": "赤毒·布拉玛",
+    "weapon_url_name": "kuva_bramma",
+    "disposition": 0.65,
+    "req_mastery_rank": 15,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5ee7dea904d55c0b2614f571",
+    "weapon_name_en": "Stropha",
+    "weapon_name_zh": "诡计之刃",
+    "weapon_url_name": "stropha",
+    "disposition": 0.65,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912bd",
+    "weapon_name_en": "Morgha",
+    "weapon_name_zh": "置灵者",
+    "weapon_url_name": "morgha",
+    "disposition": 1,
+    "req_mastery_rank": 15,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912be",
+    "weapon_name_en": "Catabolyst",
+    "weapon_name_zh": "异化者",
+    "weapon_url_name": "catabolyst",
+    "disposition": 1.2,
+    "req_mastery_rank": 11,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc7",
+    "weapon_name_en": "Hikou",
+    "weapon_name_zh": "飞扬",
+    "weapon_url_name": "hikou",
+    "disposition": 1.3,
+    "req_mastery_rank": 2,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdc9",
+    "weapon_name_en": "Knell",
+    "weapon_name_zh": "丧钟",
+    "weapon_url_name": "knell",
+    "disposition": 1.25,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdca",
+    "weapon_name_en": "Kohmak",
+    "weapon_name_zh": "寇恩霰机枪",
+    "weapon_url_name": "kohmak",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdcb",
+    "weapon_name_en": "Kraken",
+    "weapon_name_zh": "北海巨妖",
+    "weapon_url_name": "kraken",
+    "disposition": 1.53,
+    "req_mastery_rank": 0,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdcd",
+    "weapon_name_en": "Kunai",
+    "weapon_name_zh": "苦无",
+    "weapon_url_name": "kunai",
+    "disposition": 1.51,
+    "req_mastery_rank": 0,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdcf",
+    "weapon_name_en": "Lex",
+    "weapon_name_zh": "雷克斯",
+    "weapon_url_name": "lex",
+    "disposition": 1.25,
+    "req_mastery_rank": 3,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd1",
+    "weapon_name_en": "Marelok",
+    "weapon_name_zh": "玛瑞火枪",
+    "weapon_url_name": "marelok",
+    "disposition": 1.2,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf2",
+    "weapon_name_en": "Broken Scepter",
+    "weapon_name_zh": "破损珽杖",
+    "weapon_url_name": "broken_scepter",
+    "disposition": 1.4,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0b",
+    "weapon_name_en": "Dual Zoren",
+    "weapon_name_zh": "佐伦双斧",
+    "weapon_url_name": "dual_zoren",
+    "disposition": 1.44,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0d",
+    "weapon_name_en": "Ether Daggers",
+    "weapon_name_zh": "苍穹匕首",
+    "weapon_url_name": "ether_daggers",
+    "disposition": 1.49,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0e",
+    "weapon_name_en": "Ether Reaper",
+    "weapon_name_zh": "苍穹死神",
+    "weapon_url_name": "ether_reaper",
+    "disposition": 1.45,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe0f",
+    "weapon_name_en": "Ether Sword",
+    "weapon_name_zh": "苍穹之剑",
+    "weapon_url_name": "ether_sword",
+    "disposition": 1.44,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe10",
+    "weapon_name_en": "Fang",
+    "weapon_name_zh": "狼牙",
+    "weapon_url_name": "fang",
+    "disposition": 1.36,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe12",
+    "weapon_name_en": "Furax",
+    "weapon_name_zh": "弗拉克斯",
+    "weapon_url_name": "furax",
+    "disposition": 1.38,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe23",
+    "weapon_name_en": "Karyst",
+    "weapon_name_zh": "凯洛斯特",
+    "weapon_url_name": "karyst",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe60",
+    "weapon_name_en": "Stinger",
+    "weapon_name_zh": "毒刺",
+    "weapon_url_name": "stinger",
+    "disposition": 1.32,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe62",
+    "weapon_name_en": "Vulklok",
+    "weapon_name_zh": "金工火枪",
+    "weapon_url_name": "vulklok",
+    "disposition": 1.25,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5ced51decd3f0b0098a3862c",
+    "weapon_name_en": "Catchmoon",
+    "weapon_name_zh": "捕月",
+    "weapon_url_name": "catchmoon",
+    "disposition": 0.7,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5cf572529597e1019b1678cb",
+    "weapon_name_en": "Plinx",
+    "weapon_name_zh": "漫射者",
+    "weapon_url_name": "plinx",
+    "disposition": 1.2,
+    "req_mastery_rank": 6,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5cf572529597e1019b1678cc",
+    "weapon_name_en": "Korrudo",
+    "weapon_name_zh": "库鲁多",
+    "weapon_url_name": "korrudo",
+    "disposition": 1.35,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cf572539597e1019b1678cd",
+    "weapon_name_en": "Fulmin",
+    "weapon_name_zh": "雷霆",
+    "weapon_url_name": "fulmin",
+    "disposition": 1,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5cf572549597e1019b1678ce",
+    "weapon_name_en": "Cobra & Crane",
+    "weapon_name_zh": "眼镜蛇 & 鹤",
+    "weapon_url_name": "cobra_and_crane",
+    "disposition": 1.35,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cf572549597e1019b1678d0",
+    "weapon_name_en": "Komorex",
+    "weapon_name_zh": "猛毒",
+    "weapon_url_name": "komorex",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5cf572559597e1019b1678d2",
+    "weapon_name_en": "Cyanex",
+    "weapon_name_zh": "氰毒",
+    "weapon_url_name": "cyanex",
+    "disposition": 1,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5cf572579597e1019b1678d5",
+    "weapon_name_en": "Tatsu",
+    "weapon_name_zh": "龙辰",
+    "weapon_url_name": "tatsu",
+    "disposition": 1.05,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cfe91738be64500e4430cdc",
+    "weapon_name_en": "Cyngas",
+    "weapon_name_zh": "合成燃气炮",
+    "weapon_url_name": "cyngas",
+    "disposition": 1.3,
+    "req_mastery_rank": 4,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe91748be64500e4430cdd",
+    "weapon_name_en": "Larkspur",
+    "weapon_name_zh": "翠雀",
+    "weapon_url_name": "larkspur",
+    "disposition": 1.05,
+    "req_mastery_rank": 8,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe91768be64500e4430cde",
+    "weapon_name_en": "Imperator",
+    "weapon_name_zh": "凯旋将军",
+    "weapon_url_name": "imperator",
+    "disposition": 1.1,
+    "req_mastery_rank": 0,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe91788be64500e4430cdf",
+    "weapon_name_en": "Corvas",
+    "weapon_name_zh": "黑鸦",
+    "weapon_url_name": "corvas",
+    "disposition": 1.2,
+    "req_mastery_rank": 1,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe91798be64500e4430ce1",
+    "weapon_name_en": "Phaedra",
+    "weapon_name_zh": "菲德菈",
+    "weapon_url_name": "phaedra",
+    "disposition": 1.25,
+    "req_mastery_rank": 3,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe917a8be64500e4430ce2",
+    "weapon_name_en": "Grattler",
+    "weapon_name_zh": "葛拉特勒",
+    "weapon_url_name": "grattler",
+    "disposition": 1.1,
+    "req_mastery_rank": 4,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe917d8be64500e4430ce4",
+    "weapon_name_en": "Dual Decurion",
+    "weapon_name_zh": "什长双枪",
+    "weapon_url_name": "dual_decurion",
+    "disposition": 1.3,
+    "req_mastery_rank": 1,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd64",
+    "weapon_name_en": "Attica",
+    "weapon_name_zh": "阿提卡",
+    "weapon_url_name": "attica",
+    "disposition": 1.42,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd67",
+    "weapon_name_en": "Boltor",
+    "weapon_name_zh": "螺钉步枪",
+    "weapon_url_name": "boltor",
+    "disposition": 1.3,
+    "req_mastery_rank": 2,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd68",
+    "weapon_name_en": "Braton",
+    "weapon_name_zh": "布莱顿",
+    "weapon_url_name": "braton",
+    "disposition": 1.35,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6d",
+    "weapon_name_en": "Corinth",
+    "weapon_name_zh": "科林斯",
+    "weapon_url_name": "corinth",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd72",
+    "weapon_name_en": "Ferrox",
+    "weapon_name_zh": "铁晶磁轨炮",
+    "weapon_url_name": "ferrox",
+    "disposition": 1.25,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd79",
+    "weapon_name_en": "Hek",
+    "weapon_name_zh": "海克",
+    "weapon_url_name": "hek",
+    "disposition": 1.2,
+    "req_mastery_rank": 4,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd86",
+    "weapon_name_en": "Ogris",
+    "weapon_name_zh": "食人女魔",
+    "weapon_url_name": "ogris",
+    "disposition": 1.3,
+    "req_mastery_rank": 9,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd89",
+    "weapon_name_en": "Paracyst",
+    "weapon_name_zh": "附肢寄生者",
+    "weapon_url_name": "paracyst",
+    "disposition": 1.31,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd98",
+    "weapon_name_en": "Supra",
+    "weapon_name_zh": "苏普拉",
+    "weapon_url_name": "supra",
+    "disposition": 1.1,
+    "req_mastery_rank": 12,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9b",
+    "weapon_name_en": "Tenora",
+    "weapon_name_zh": "双簧管",
+    "weapon_url_name": "tenora",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd9d",
+    "weapon_name_en": "Tiberon",
+    "weapon_name_zh": "狂鲨",
+    "weapon_url_name": "tiberon",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdad",
+    "weapon_name_en": "Aklex",
+    "weapon_name_zh": "雷克斯双枪",
+    "weapon_url_name": "aklex",
+    "disposition": 1.05,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdae",
+    "weapon_name_en": "Akmagnus",
+    "weapon_name_zh": "麦格努斯双枪",
+    "weapon_url_name": "akmagnus",
+    "disposition": 1.35,
+    "req_mastery_rank": 12,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdaf",
+    "weapon_name_en": "Aksomati",
+    "weapon_name_zh": "轻灵月神双枪",
+    "weapon_url_name": "aksomati",
+    "disposition": 1.25,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb0",
+    "weapon_name_en": "Akstiletto",
+    "weapon_name_zh": "史提托双枪",
+    "weapon_url_name": "akstiletto",
+    "disposition": 0.95,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb1",
+    "weapon_name_en": "Akvasto",
+    "weapon_name_zh": "瓦斯托双枪",
+    "weapon_url_name": "akvasto",
+    "disposition": 1.25,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb2",
+    "weapon_name_en": "Akzani",
+    "weapon_name_zh": "荒谬双枪",
+    "weapon_url_name": "akzani",
+    "disposition": 1.52,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb3",
+    "weapon_name_en": "Angstrum",
+    "weapon_name_zh": "安格斯壮",
+    "weapon_url_name": "angstrum",
+    "disposition": 1.35,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb5",
+    "weapon_name_en": "Atomos",
+    "weapon_name_zh": "原子矿融炮",
+    "weapon_url_name": "atomos",
+    "disposition": 0.95,
+    "req_mastery_rank": 5,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb6",
+    "weapon_name_en": "Azima",
+    "weapon_name_zh": "方位角",
+    "weapon_url_name": "azima",
+    "disposition": 1.25,
+    "req_mastery_rank": 6,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb8",
+    "weapon_name_en": "Bolto",
+    "weapon_name_zh": "螺钉手枪",
+    "weapon_url_name": "bolto",
+    "disposition": 1.51,
+    "req_mastery_rank": 7,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdb9",
+    "weapon_name_en": "Brakk",
+    "weapon_name_zh": "布拉克",
+    "weapon_url_name": "brakk",
+    "disposition": 1.25,
+    "req_mastery_rank": 6,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdbe",
+    "weapon_name_en": "Despair",
+    "weapon_name_zh": "绝望",
+    "weapon_url_name": "despair",
+    "disposition": 1.3,
+    "req_mastery_rank": 4,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe09",
+    "weapon_name_en": "Dual Raza",
+    "weapon_name_zh": "锋月双斧",
+    "weapon_url_name": "dual_raza",
+    "disposition": 1.4,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe42",
+    "weapon_name_en": "Reaper Prime",
+    "weapon_name_zh": "收割者 Prime",
+    "weapon_url_name": "reaper_prime",
+    "disposition": 0.8,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe44",
+    "weapon_name_en": "Ripkas",
+    "weapon_name_zh": "锐卡斯",
+    "weapon_url_name": "ripkas",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdfd",
+    "weapon_name_en": "Dark Sword",
+    "weapon_name_zh": "暗黑长剑",
+    "weapon_url_name": "dark_sword",
+    "disposition": 1.48,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cf572559597e1019b1678d1",
+    "weapon_name_en": "Kreska",
+    "weapon_name_zh": "直镐",
+    "weapon_url_name": "kreska",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5cfe91798be64500e4430ce0",
+    "weapon_name_en": "Velocitus",
+    "weapon_name_zh": "极速电磁步枪",
+    "weapon_url_name": "velocitus",
+    "disposition": 1.1,
+    "req_mastery_rank": 0,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5cfe917a8be64500e4430ce3",
+    "weapon_name_en": "Fluctus",
+    "weapon_name_zh": "巨浪",
+    "weapon_url_name": "fluctus",
+    "disposition": 1.05,
+    "req_mastery_rank": 2,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5d322d0e74bdad027da4d06a",
+    "weapon_name_en": "Quatz",
+    "weapon_name_zh": "夸兹",
+    "weapon_url_name": "quatz",
+    "disposition": 1.2,
+    "req_mastery_rank": 9,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5d6e947e7ea27b048cbea8cc",
+    "weapon_name_en": "Acceltra",
+    "weapon_name_zh": "迅发电浆炮",
+    "weapon_url_name": "acceltra",
+    "disposition": 0.65,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5d6e947e7ea27b048cbea8cd",
+    "weapon_name_en": "Akarius",
+    "weapon_name_zh": "阿利乌双枪",
+    "weapon_url_name": "akarius",
+    "disposition": 1.05,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5d70ebe07ea27b064d455072",
+    "weapon_name_en": "Tazicor",
+    "weapon_name_zh": "泰瑟步枪",
+    "weapon_url_name": "tazicor",
+    "disposition": 1,
+    "req_mastery_rank": 3,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5d70ebe17ea27b064d455073",
+    "weapon_name_en": "Cryotra",
+    "weapon_name_zh": "急冻喷枪",
+    "weapon_url_name": "cryotra",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5e02154d14569703bf43e547",
+    "weapon_name_en": "Shedu",
+    "weapon_name_zh": "舍杜",
+    "weapon_url_name": "shedu",
+    "disposition": 0.75,
+    "req_mastery_rank": 13,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5f498a389426ed005af5ecb2",
+    "weapon_name_en": "Cortege",
+    "weapon_name_zh": "送葬者",
+    "weapon_url_name": "cortege",
+    "disposition": 1,
+    "req_mastery_rank": 14,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5f9963079dbdce02e693ec7b",
+    "weapon_name_en": "Vitrica",
+    "weapon_name_zh": "金璃剑",
+    "weapon_url_name": "vitrica",
+    "disposition": 1.05,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912b8",
+    "weapon_name_en": "Pulmonars",
+    "weapon_name_zh": "感染连枷",
+    "weapon_url_name": "pulmonars",
+    "disposition": 1.2,
+    "req_mastery_rank": 11,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912b9",
+    "weapon_name_en": "Bubonico",
+    "weapon_name_zh": "横痃重炮",
+    "weapon_url_name": "bubonico",
+    "disposition": 0.75,
+    "req_mastery_rank": 13,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912ba",
+    "weapon_name_en": "Proboscis Cernos",
+    "weapon_name_zh": "刺吸西诺斯",
+    "weapon_url_name": "proboscis_cernos",
+    "disposition": 0.9,
+    "req_mastery_rank": 15,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912bb",
+    "weapon_name_en": "Sporothrix",
+    "weapon_name_zh": "孢丝感染枪",
+    "weapon_url_name": "sporothrix",
+    "disposition": 1.3,
+    "req_mastery_rank": 13,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5fb847a0c34da30068f912bc",
+    "weapon_name_en": "Arum Spinosa",
+    "weapon_name_zh": "疆南星刺",
+    "weapon_url_name": "arum_spinosa",
+    "disposition": 1.25,
+    "req_mastery_rank": 11,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe45",
+    "weapon_name_en": "Sarpa",
+    "weapon_name_zh": "蛇刃",
+    "weapon_url_name": "sarpa",
+    "disposition": 1.2,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe46",
+    "weapon_name_en": "Scindo",
+    "weapon_name_zh": "分裂斩斧",
+    "weapon_url_name": "scindo",
+    "disposition": 1.35,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe47",
+    "weapon_name_en": "Scoliac",
+    "weapon_name_zh": "脊椎节鞭",
+    "weapon_url_name": "scoliac",
+    "disposition": 1.3,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe48",
+    "weapon_name_en": "Sepfahn",
+    "weapon_name_zh": "瑟普梵",
+    "weapon_url_name": "sepfahn",
+    "disposition": 0.7,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe49",
+    "weapon_name_en": "Serro",
+    "weapon_name_zh": "电能斩锯",
+    "weapon_url_name": "serro",
+    "disposition": 1.38,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4a",
+    "weapon_name_en": "Shaku",
+    "weapon_name_zh": "双节尺棍",
+    "weapon_url_name": "shaku",
+    "disposition": 1.35,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4b",
+    "weapon_name_en": "Sheev",
+    "weapon_name_zh": "希芙",
+    "weapon_url_name": "sheev",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4c",
+    "weapon_name_en": "Sibear",
+    "weapon_name_zh": "西伯利亚冰锤",
+    "weapon_url_name": "sibear",
+    "disposition": 1.35,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4d",
+    "weapon_name_en": "Sigma & Octantis",
+    "weapon_name_zh": "西格玛 & 南极座",
+    "weapon_url_name": "sigma_and_octantis",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe4e",
+    "weapon_name_en": "Silva & Aegis",
+    "weapon_name_zh": "席瓦 & 神盾",
+    "weapon_url_name": "silva_and_aegis",
+    "disposition": 1.15,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe50",
+    "weapon_name_en": "Skiajati",
+    "weapon_name_zh": "影生",
+    "weapon_url_name": "skiajati",
+    "disposition": 0.9,
+    "req_mastery_rank": 11,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe51",
+    "weapon_name_en": "Sydon",
+    "weapon_name_zh": "恶龙",
+    "weapon_url_name": "sydon",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe52",
+    "weapon_name_en": "Tekko",
+    "weapon_name_zh": "铁钩手甲",
+    "weapon_url_name": "tekko",
+    "disposition": 1.4,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe53",
+    "weapon_name_en": "Tipedo",
+    "weapon_name_zh": "提佩多",
+    "weapon_url_name": "tipedo",
+    "disposition": 1.31,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe54",
+    "weapon_name_en": "Tonbo",
+    "weapon_name_zh": "蜻蛉薙",
+    "weapon_url_name": "tonbo",
+    "disposition": 1.38,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe55",
+    "weapon_name_en": "Twin Basolk",
+    "weapon_name_zh": "双子巴萨克",
+    "weapon_url_name": "twin_basolk",
+    "disposition": 1.3,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd60",
+    "weapon_name_en": "Amprex",
+    "weapon_name_zh": "安培克斯",
+    "weapon_url_name": "amprex",
+    "disposition": 0.85,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd69",
+    "weapon_name_en": "Burston",
+    "weapon_name_zh": "伯斯顿",
+    "weapon_url_name": "burston",
+    "disposition": 1.45,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6a",
+    "weapon_name_en": "Buzlok",
+    "weapon_name_zh": "巴兹火枪",
+    "weapon_url_name": "buzlok",
+    "disposition": 1.45,
+    "req_mastery_rank": 11,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6b",
+    "weapon_name_en": "Cernos",
+    "weapon_name_zh": "西诺斯",
+    "weapon_url_name": "cernos",
+    "disposition": 1.3,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6c",
+    "weapon_name_en": "Convectrix",
+    "weapon_name_zh": "导热聚焦枪",
+    "weapon_url_name": "convectrix",
+    "disposition": 1.46,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6e",
+    "weapon_name_en": "Daikyu",
+    "weapon_name_zh": "大久和弓",
+    "weapon_url_name": "daikyu",
+    "disposition": 1.3,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd6f",
+    "weapon_name_en": "Dera",
+    "weapon_name_zh": "德拉",
+    "weapon_url_name": "dera",
+    "disposition": 1.4,
+    "req_mastery_rank": 4,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd70",
+    "weapon_name_en": "Drakgoon",
+    "weapon_name_zh": "龙骑兵",
+    "weapon_url_name": "drakgoon",
+    "disposition": 1.4,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd71",
+    "weapon_name_en": "Dread",
+    "weapon_name_zh": "恐惧",
+    "weapon_url_name": "dread",
+    "disposition": 1.3,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd74",
+    "weapon_name_en": "Glaxion",
+    "weapon_name_zh": "冷冻光束步枪",
+    "weapon_url_name": "glaxion",
+    "disposition": 1.3,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd75",
+    "weapon_name_en": "Gorgon",
+    "weapon_name_zh": "蛇发女妖",
+    "weapon_url_name": "gorgon",
+    "disposition": 1.4,
+    "req_mastery_rank": 3,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd76",
+    "weapon_name_en": "Grakata",
+    "weapon_name_zh": "葛拉卡达",
+    "weapon_url_name": "grakata",
+    "disposition": 1.35,
+    "req_mastery_rank": 5,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fd77",
+    "weapon_name_en": "Grinlok",
+    "weapon_name_zh": "葛恩火枪",
+    "weapon_url_name": "grinlok",
+    "disposition": 1.3,
+    "req_mastery_rank": 7,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdd6",
+    "weapon_name_en": "Seer",
+    "weapon_name_zh": "预言者",
+    "weapon_url_name": "seer",
+    "disposition": 1.5,
+    "req_mastery_rank": 0,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fde7",
+    "weapon_name_en": "Zakti",
+    "weapon_name_zh": "毒芽",
+    "weapon_url_name": "zakti",
+    "disposition": 1.25,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdf9",
+    "weapon_name_en": "Cyath",
+    "weapon_name_zh": "西亚什",
+    "weapon_url_name": "cyath",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "zaw"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fdfc",
+    "weapon_name_en": "Dark Split-Sword",
+    "weapon_name_zh": "暗黑分合剑",
+    "weapon_url_name": "dark_split_sword_(dual_swords)",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe27",
+    "weapon_name_en": "Krohkur",
+    "weapon_name_zh": "克鲁古尔",
+    "weapon_url_name": "krohkur",
+    "disposition": 1.35,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe28",
+    "weapon_name_en": "Kronen",
+    "weapon_name_zh": "皇家拐刃",
+    "weapon_url_name": "kronen",
+    "disposition": 1.43,
+    "req_mastery_rank": 3,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2a",
+    "weapon_name_en": "Lacera",
+    "weapon_name_zh": "悲痛之刃",
+    "weapon_url_name": "lacera",
+    "disposition": 1.31,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe2c",
+    "weapon_name_en": "Lesion",
+    "weapon_name_zh": "病变",
+    "weapon_url_name": "lesion",
+    "disposition": 0.85,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe57",
+    "weapon_name_en": "Venka",
+    "weapon_name_zh": "凯旋之爪",
+    "weapon_url_name": "venka",
+    "disposition": 1.1,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe58",
+    "weapon_name_en": "Volnus",
+    "weapon_name_zh": "创伤",
+    "weapon_url_name": "volnus",
+    "disposition": 1.4,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5a",
+    "weapon_name_en": "Zenistar",
+    "weapon_name_zh": "天顶之星",
+    "weapon_url_name": "zenistar",
+    "disposition": 1.15,
+    "req_mastery_rank": 6,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe5d",
+    "weapon_name_en": "Deconstructor",
+    "weapon_name_zh": "分离",
+    "weapon_url_name": "deconstructor",
+    "disposition": 1.25,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5c5ca81696e8d2003834fe61",
+    "weapon_name_en": "Sweeper",
+    "weapon_name_zh": "扫除者",
+    "weapon_url_name": "sweeper",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5ced51e0cd3f0b0098a3862d",
+    "weapon_name_en": "Rattleguts",
+    "weapon_name_zh": "响胆",
+    "weapon_url_name": "rattleguts",
+    "disposition": 0.95,
+    "req_mastery_rank": 0,
+    "weapon_type": "kitgun"
+  },
+  {
+    "weapon_id": "5cf572569597e1019b1678d3",
+    "weapon_name_en": "Wolf Sledge",
+    "weapon_name_zh": "恶狼战锤",
+    "weapon_url_name": "wolf_sledge",
+    "disposition": 1.25,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5e02154d14569703bf43e549",
+    "weapon_name_en": "Quellor",
+    "weapon_name_zh": "压制者",
+    "weapon_url_name": "quellor",
+    "disposition": 1.15,
+    "req_mastery_rank": 12,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5e7ca96f267539062bcc4179",
+    "weapon_name_en": "Basmu",
+    "weapon_name_zh": "巴什穆",
+    "weapon_url_name": "basmu",
+    "disposition": 1.2,
+    "req_mastery_rank": 11,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5ee7dea904d55c0b2614f572",
+    "weapon_name_en": "Stahlta",
+    "weapon_name_zh": "钢刃步枪",
+    "weapon_url_name": "stahlta",
+    "disposition": 1.05,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5ee7dea904d55c0b2614f573",
+    "weapon_name_en": "Velox",
+    "weapon_name_zh": "逐电",
+    "weapon_url_name": "velox",
+    "disposition": 1.25,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5f07214b9f527b017c17a95b",
+    "weapon_name_en": "Helstrum",
+    "weapon_name_zh": "赫尔斯壮",
+    "weapon_url_name": "helstrum",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "5f07214b9f527b017c17a95c",
+    "weapon_name_en": "Xoris",
+    "weapon_name_zh": "驱魔之刃",
+    "weapon_url_name": "xoris",
+    "disposition": 0.65,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5f2af41aad961e006bd6a95f",
+    "weapon_name_en": "Athodai",
+    "weapon_name_zh": "阿索代",
+    "weapon_url_name": "athodai",
+    "disposition": 1.05,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5f498a379426ed005af5ecac",
+    "weapon_name_en": "Sepulcrum",
+    "weapon_name_zh": "追击者",
+    "weapon_url_name": "sepulcrum",
+    "disposition": 1.1,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5f498a379426ed005af5ecad",
+    "weapon_name_en": "Quassus",
+    "weapon_name_zh": "威震武扇",
+    "weapon_url_name": "quassus",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5f498a379426ed005af5ecae",
+    "weapon_name_en": "Trumna",
+    "weapon_name_zh": "灭杀者",
+    "weapon_url_name": "trumna",
+    "disposition": 0.85,
+    "req_mastery_rank": 13,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "5f498a379426ed005af5ecaf",
+    "weapon_name_en": "Zymos",
+    "weapon_name_zh": "邪莫斯",
+    "weapon_url_name": "zymos",
+    "disposition": 1.2,
+    "req_mastery_rank": 11,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "5f498a379426ed005af5ecb0",
+    "weapon_name_en": "Keratinos",
+    "weapon_name_zh": "卡提努之爪",
+    "weapon_url_name": "keratinos",
+    "disposition": 1.05,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "5f498a389426ed005af5ecb1",
+    "weapon_name_en": "Mausolon",
+    "weapon_name_zh": "惩戒者",
+    "weapon_url_name": "mausolon",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "5fde10b76db57b017abc81a7",
+    "weapon_name_en": "Cedo",
+    "weapon_name_zh": "塞多",
+    "weapon_url_name": "cedo",
+    "disposition": 0.65,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "6070925384a7d7024f5f5772",
+    "weapon_name_en": "Verglas",
+    "weapon_name_zh": "冰凇",
+    "weapon_url_name": "verglas",
+    "disposition": 1.3,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "60783de384a7d703362ef000",
+    "weapon_name_en": "Epitaph",
+    "weapon_name_zh": "葬铭",
+    "weapon_url_name": "epitaph",
+    "disposition": 0.6,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99962",
+    "weapon_name_en": "Tenet Envoy",
+    "weapon_name_zh": "信条·典客",
+    "weapon_url_name": "tenet_envoy",
+    "disposition": 0.65,
+    "req_mastery_rank": 16,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99963",
+    "weapon_name_en": "Tenet Spirex",
+    "weapon_name_zh": "信条·斯派克斯",
+    "weapon_url_name": "tenet_spirex",
+    "disposition": 1.05,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99964",
+    "weapon_name_en": "Kompressa",
+    "weapon_name_zh": "卡帕压力枪",
+    "weapon_url_name": "kompressa",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99965",
+    "weapon_name_en": "Tenet Exec",
+    "weapon_name_zh": "信条·枢密",
+    "weapon_url_name": "tenet_exec",
+    "disposition": 0.8,
+    "req_mastery_rank": 16,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99966",
+    "weapon_name_en": "Tenet Grigori",
+    "weapon_name_zh": "信条·格里高利",
+    "weapon_url_name": "tenet_grigori",
+    "disposition": 0.9,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99967",
+    "weapon_name_en": "Ambassador",
+    "weapon_name_zh": "使节",
+    "weapon_url_name": "ambassador",
+    "disposition": 1.15,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99968",
+    "weapon_name_en": "Cadus",
+    "weapon_name_zh": "卡德斯",
+    "weapon_url_name": "cadus",
+    "disposition": 1.29,
+    "req_mastery_rank": 4,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e99969",
+    "weapon_name_en": "Tenet Livia",
+    "weapon_name_zh": "信条·莉薇娅",
+    "weapon_url_name": "tenet_livia",
+    "disposition": 0.95,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e9996a",
+    "weapon_name_en": "Tenet Diplos",
+    "weapon_name_zh": "信条·纵横双枪",
+    "weapon_url_name": "tenet_diplos",
+    "disposition": 0.8,
+    "req_mastery_rank": 16,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "60e5b9014794450053e9996b",
+    "weapon_name_en": "Tenet Agendus",
+    "weapon_name_zh": "信条·集议",
+    "weapon_url_name": "tenet_agendus",
+    "disposition": 0.9,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "60f3feb1b64404003f0bf5ff",
+    "weapon_name_en": "Lacerten",
+    "weapon_name_zh": "莱斯腾",
+    "weapon_url_name": "lacerten",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "60f3feb1b64404003f0bf600",
+    "weapon_name_en": "Akaten",
+    "weapon_name_zh": "阿卡腾",
+    "weapon_url_name": "akaten",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "60f3feb1b64404003f0bf601",
+    "weapon_name_en": "Batoten",
+    "weapon_name_zh": "巴托腾",
+    "weapon_url_name": "batoten",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "sentinel"
+  },
+  {
+    "weapon_id": "60fec673e5d505003b1d38b5",
+    "weapon_name_en": "Vastilok",
+    "weapon_name_zh": "瓦斯提枪刃",
+    "weapon_url_name": "vastilok",
+    "disposition": 0.9,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61460dcde330e600455dcea6",
+    "weapon_name_en": "Ghoulsaw",
+    "weapon_name_zh": "尸鬼电锯",
+    "weapon_url_name": "ghoulsaw",
+    "disposition": 1.25,
+    "req_mastery_rank": 7,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fd8",
+    "weapon_name_en": "Verdilac",
+    "weapon_name_zh": "蝰首骨妖",
+    "weapon_url_name": "verdilac",
+    "disposition": 1.1,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fd9",
+    "weapon_name_en": "Nepheri",
+    "weapon_name_zh": "赤炎流星",
+    "weapon_url_name": "nepheri",
+    "disposition": 1,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fda",
+    "weapon_name_en": "Rumblejack",
+    "weapon_name_zh": "电匕怪杰",
+    "weapon_url_name": "rumblejack",
+    "disposition": 1.2,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fdb",
+    "weapon_name_en": "Korumm",
+    "weapon_name_zh": "雷霆暴君",
+    "weapon_url_name": "korumm",
+    "disposition": 1.1,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fdc",
+    "weapon_name_en": "Venato",
+    "weapon_name_zh": "脉纹",
+    "weapon_url_name": "venato",
+    "disposition": 1.3,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "61bb64fe3132ff00482b5fdd",
+    "weapon_name_en": "Nataruk",
+    "weapon_name_zh": "太始弓",
+    "weapon_url_name": "nataruk",
+    "disposition": 0.65,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d90",
+    "weapon_name_en": "Hespar",
+    "weapon_name_zh": "暮斩",
+    "weapon_url_name": "hespar",
+    "disposition": 1,
+    "req_mastery_rank": 12,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d91",
+    "weapon_name_en": "Alternox",
+    "weapon_name_zh": "电幻步枪",
+    "weapon_url_name": "alternox",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d92",
+    "weapon_name_en": "Aeolak",
+    "weapon_name_zh": "风鸣",
+    "weapon_url_name": "aeolak",
+    "disposition": 1.2,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d93",
+    "weapon_name_en": "Phenmor",
+    "weapon_name_zh": "凤殁",
+    "weapon_url_name": "phenmor",
+    "disposition": 0.6,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d94",
+    "weapon_name_en": "Laetum",
+    "weapon_name_zh": "奏凯",
+    "weapon_url_name": "laetum",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "626a197ef40db600660a1d95",
+    "weapon_name_en": "Praedos",
+    "weapon_name_zh": "双雄",
+    "weapon_url_name": "praedos",
+    "disposition": 0.6,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "62a2baecfbd62c00450b71e0",
+    "weapon_name_en": "Innodem",
+    "weapon_name_zh": "清刚",
+    "weapon_url_name": "innodem",
+    "disposition": 0.65,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "62a2baecfbd62c00450b71e1",
+    "weapon_name_en": "Felarx",
+    "weapon_name_zh": "逐枭",
+    "weapon_url_name": "felarx",
+    "disposition": 0.6,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "62d3078680f54c00b5ddf5d2",
+    "weapon_name_en": "Vericres",
+    "weapon_name_zh": "真月武扇",
+    "weapon_url_name": "vericres",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "6319dc240cd37200bcb88275",
+    "weapon_name_en": "Slaytra",
+    "weapon_name_zh": "屠煞",
+    "weapon_url_name": "slaytra",
+    "disposition": 1.05,
+    "req_mastery_rank": 13,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "6319dc250cd37200bcb88276",
+    "weapon_name_en": "Aegrit",
+    "weapon_name_zh": "骇敌榴弹",
+    "weapon_url_name": "aegrit",
+    "disposition": 1,
+    "req_mastery_rank": 11,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "6319dc250cd37200bcb88277",
+    "weapon_name_en": "Afentis",
+    "weapon_name_zh": "圣英",
+    "weapon_url_name": "afentis",
+    "disposition": 1.05,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "6388664ce7c98800a3b47115",
+    "weapon_name_en": "Sarofang",
+    "weapon_name_zh": "沙罗之牙",
+    "weapon_url_name": "sarofang",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "6388664ce7c98800a3b47116",
+    "weapon_name_en": "Perigale",
+    "weapon_name_zh": "月面狂风",
+    "weapon_url_name": "perigale",
+    "disposition": 1.15,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "63ee010110125411da49e700",
+    "weapon_name_en": "Corufell",
+    "weapon_name_zh": "闪劫",
+    "weapon_url_name": "corufell",
+    "disposition": 1,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "63ee010110125411da49e701",
+    "weapon_name_en": "Steflos",
+    "weapon_name_zh": "石晶之花",
+    "weapon_url_name": "steflos",
+    "disposition": 1.25,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "644b00257ec1900044b97738",
+    "weapon_name_en": "Sampotes",
+    "weapon_name_zh": "三宝聚",
+    "weapon_url_name": "sampotes",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "644b00257ec1900044b97739",
+    "weapon_name_en": "Azothane",
+    "weapon_name_zh": "溶灵尊",
+    "weapon_url_name": "azothane",
+    "disposition": 1.05,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "644b00267ec1900044b9773a",
+    "weapon_name_en": "Syam",
+    "weapon_name_zh": "业珀",
+    "weapon_url_name": "syam",
+    "disposition": 0.75,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "644b00267ec1900044b9773b",
+    "weapon_name_en": "Cinta",
+    "weapon_name_zh": "遂心",
+    "weapon_url_name": "cinta",
+    "disposition": 1.25,
+    "req_mastery_rank": 6,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "644b00267ec1900044b9773c",
+    "weapon_name_en": "Sun & Moon",
+    "weapon_name_zh": "赤阳 & 幽月",
+    "weapon_url_name": "sun_and_moon",
+    "disposition": 0.8,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "644b00267ec1900044b9773d",
+    "weapon_name_en": "Edun",
+    "weapon_name_zh": "雷石祭",
+    "weapon_url_name": "edun",
+    "disposition": 1.1,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "649325b17ec1902187d57141",
+    "weapon_name_en": "Rauta",
+    "weapon_name_zh": "锐铁",
+    "weapon_url_name": "rauta",
+    "disposition": 1.1,
+    "req_mastery_rank": 8,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "64c2aa1766456704eba6ba4b",
+    "weapon_name_en": "Argo & Vel",
+    "weapon_name_zh": "星舟 & 帆",
+    "weapon_url_name": "argo_and_vel",
+    "disposition": 1.15,
+    "req_mastery_rank": 0,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "65084702b0b39003de5c6608",
+    "weapon_name_en": "Gotva Prime",
+    "weapon_name_zh": "骨葬 Prime",
+    "weapon_url_name": "gotva_prime",
+    "disposition": 0.85,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "653168b5f31453d36319c56b",
+    "weapon_name_en": "Dorrclave",
+    "weapon_name_zh": "怒斩",
+    "weapon_url_name": "dorrclave",
+    "disposition": 1.05,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "657b07d2107314e45d820f3d",
+    "weapon_name_en": "Ekhein",
+    "weapon_name_zh": "映声战锤",
+    "weapon_url_name": "ekhein",
+    "disposition": 1.2,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "657b07d2107314e45d820f3e",
+    "weapon_name_en": "Mandonel",
+    "weapon_name_zh": "辐光弩炮",
+    "weapon_url_name": "mandonel",
+    "disposition": 1.1,
+    "req_mastery_rank": 10,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "658324796a16d2e9b441c875",
+    "weapon_name_en": "Grimoire",
+    "weapon_name_zh": "魔典",
+    "weapon_url_name": "grimoire",
+    "disposition": 0.6,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "6605af996c556c21875eae30",
+    "weapon_name_en": "Onos",
+    "weapon_name_zh": "赘骨",
+    "weapon_url_name": "onos",
+    "disposition": 0.8,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "6605af9e6c556c21875eae32",
+    "weapon_name_en": "Ruvox",
+    "weapon_name_zh": "古声",
+    "weapon_url_name": "ruvox",
+    "disposition": 0.9,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "663203e0e85cac3856c86cb9",
+    "weapon_name_en": "Dex Nikana",
+    "weapon_name_zh": "Dex 侍刃",
+    "weapon_url_name": "dex_nikana",
+    "disposition": 1,
+    "req_mastery_rank": 8,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "667239428ba7c81b70d02cc2",
+    "weapon_name_en": "Cantare",
+    "weapon_name_zh": "歌颂",
+    "weapon_url_name": "cantare",
+    "disposition": 1.05,
+    "req_mastery_rank": 10,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "667239468ba7c81b70d02cc4",
+    "weapon_name_en": "Evensong",
+    "weapon_name_zh": "晚祷",
+    "weapon_url_name": "evensong",
+    "disposition": 1.15,
+    "req_mastery_rank": 10,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "667239538ba7c81b70d02cc6",
+    "weapon_name_en": "Harmony",
+    "weapon_name_zh": "和谐",
+    "weapon_url_name": "harmony",
+    "disposition": 0.6,
+    "req_mastery_rank": 10,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "669c430a2bca759c7edfc9a4",
+    "weapon_name_en": "AX-52",
+    "weapon_name_zh": "AX-52",
+    "weapon_url_name": "ax_52",
+    "disposition": 0.8,
+    "req_mastery_rank": 12,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "66fe9569755c14b58ddfa04b",
+    "weapon_name_en": "Higasa",
+    "weapon_name_zh": "晴日伞",
+    "weapon_url_name": "higasa",
+    "disposition": 1.2,
+    "req_mastery_rank": 2,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "66fe956d755c14b58ddfa04d",
+    "weapon_name_en": "Amanata",
+    "weapon_name_zh": "天薙刀",
+    "weapon_url_name": "amanata",
+    "disposition": 0.85,
+    "req_mastery_rank": 2,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "675d11bd47952ab3ea1928fa",
+    "weapon_name_en": "Vesper 77",
+    "weapon_name_zh": "夜语者 77",
+    "weapon_url_name": "vesper_77",
+    "disposition": 0.75,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "675d11c947952ab3ea1928fc",
+    "weapon_name_en": "Reconifex",
+    "weapon_name_zh": "侦察者",
+    "weapon_url_name": "reconifex",
+    "disposition": 0.9,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "67db60f09cec3e52e62523f8",
+    "weapon_name_en": "Riot-848",
+    "weapon_name_zh": "暴乱-848",
+    "weapon_url_name": "riot_848",
+    "disposition": 0.85,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "67db60f19cec3e52e62523f9",
+    "weapon_name_en": "Purgator 1",
+    "weapon_name_zh": "净化者 1",
+    "weapon_url_name": "purgator_1",
+    "disposition": 1,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "67db60f29cec3e52e62523fa",
+    "weapon_name_en": "Dual Viciss",
+    "weapon_name_zh": "双子恶行",
+    "weapon_url_name": "dual_viciss",
+    "disposition": 0.75,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "67db60f39cec3e52e62523fb",
+    "weapon_name_en": "EFV-8 Mars",
+    "weapon_name_zh": "艾弗旺-8 火星",
+    "weapon_url_name": "efv_8_mars",
+    "disposition": 0.95,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "67db60f49cec3e52e62523fc",
+    "weapon_name_en": "EFV-5 Jupiter",
+    "weapon_name_zh": "艾弗旺-5 木星",
+    "weapon_url_name": "efv_5_jupiter",
+    "disposition": 0.95,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "67db60f69cec3e52e62523fd",
+    "weapon_name_en": "Dual Coda Torxica",
+    "weapon_name_zh": "终幕·孢蚀双枪",
+    "weapon_url_name": "dual_coda_torxica",
+    "disposition": 0.55,
+    "req_mastery_rank": 17,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "67db60f79cec3e52e62523fe",
+    "weapon_name_en": "Coda Motovore",
+    "weapon_name_zh": "终幕·噬轮",
+    "weapon_url_name": "coda_motovore",
+    "disposition": 0.7,
+    "req_mastery_rank": 17,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "67db60f89cec3e52e62523ff",
+    "weapon_name_en": "Coda Bassocyst",
+    "weapon_name_zh": "终幕·低音爆囊",
+    "weapon_url_name": "coda_bassocyst",
+    "disposition": 0.6,
+    "req_mastery_rank": 17,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "682dee1f35715d4f3e9c64b9",
+    "weapon_name_en": "Tak & Lug",
+    "weapon_name_zh": "塔克 & 卢格",
+    "weapon_url_name": "tak_and_lug",
+    "disposition": 0.5,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "682dee2b35715d4f3e9c64bb",
+    "weapon_name_en": "Tonkkatt",
+    "weapon_name_zh": "通卡拐刃",
+    "weapon_url_name": "tonkkatt",
+    "disposition": 0.5,
+    "req_mastery_rank": 9,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "685d4ebaf41598dddb4cc2ec",
+    "weapon_name_en": "Thalys",
+    "weapon_name_zh": "大力士",
+    "weapon_url_name": "thalys",
+    "disposition": 0.6,
+    "req_mastery_rank": 12,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "685d4ec3f41598dddb4cc2ee",
+    "weapon_name_en": "Scyotid",
+    "weapon_name_zh": "镰刃刺",
+    "weapon_url_name": "scyotid",
+    "disposition": 0.6,
+    "req_mastery_rank": 12,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "685d4ecbf41598dddb4cc2f0",
+    "weapon_name_en": "Spinnerex",
+    "weapon_name_zh": "丝蛛皇",
+    "weapon_url_name": "spinnerex",
+    "disposition": 0.6,
+    "req_mastery_rank": 12,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "68add6831027572e028db6c7",
+    "weapon_name_en": "Vadarya Prime",
+    "weapon_name_zh": "瓦德雅 Prime",
+    "weapon_url_name": "vadarya_prime",
+    "disposition": 0.65,
+    "req_mastery_rank": 15,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "68efbff105fb2137056fb723",
+    "weapon_name_en": "Arbucep",
+    "weapon_name_zh": "蕈菇",
+    "weapon_url_name": "arbucep",
+    "disposition": 0.6,
+    "req_mastery_rank": 0,
+    "weapon_type": "archgun"
+  },
+  {
+    "weapon_id": "68efc01705fb2137056fb725",
+    "weapon_name_en": "Thornbak",
+    "weapon_name_zh": "棘背",
+    "weapon_url_name": "thornbak",
+    "disposition": 1,
+    "req_mastery_rank": 0,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "6939d7d6d6a357b81964f869",
+    "weapon_name_en": "Vinquibus",
+    "weapon_name_zh": "制胜者",
+    "weapon_url_name": "vinquibus",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "primary"
+  },
+  {
+    "weapon_id": "6939d7e8d6a357b81964f86b",
+    "weapon_name_en": "Galariak Prime",
+    "weapon_name_zh": "加拉亚 Prime",
+    "weapon_url_name": "galariak_prime",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  },
+  {
+    "weapon_id": "6939d7f5d6a357b81964f86d",
+    "weapon_name_en": "Sagek Prime",
+    "weapon_name_zh": "杀格 Prime",
+    "weapon_url_name": "sagek_prime",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "secondary"
+  },
+  {
+    "weapon_id": "6949f183bf34608b9906f035",
+    "weapon_name_en": "Vinquibus (Melee)",
+    "weapon_name_zh": "制胜者 (近战)",
+    "weapon_url_name": "vinquibus_melee",
+    "disposition": 0.5,
+    "req_mastery_rank": 14,
+    "weapon_type": "melee"
+  }
+]
