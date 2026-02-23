@@ -8,10 +8,10 @@ from nonebot.adapters.onebot.v11 import Adapter as OneBotV11Adapter
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # 统一日志配置
-from core.logger_config import setup_logger
+from core.logger_config import setup_logger, print_banner
 logger = setup_logger()
 
-# 导入配置和基础管理器（不初始化NoneBot）
+# 导入配置和基础管理器
 from config import config
 from core.cache_manager import cache
 from core.api_manager import api_manager
@@ -21,6 +21,7 @@ from managers.fissure_monitor import fissure_monitor
 from managers.bounty_manager import bounty_manager
 from managers.zariman_bounty_monitor import zariman_bounty_monitor
 from managers.void_trader_monitor import void_trader_monitor
+
 
 # 初始化NoneBot
 nonebot.init()
@@ -47,16 +48,20 @@ import handlers.research.research_handler  # noqa: F401
 import handlers.game_status.calendar_handler  # noqa: F401
 import handlers.game_status.void_trader_handler  # noqa: F401
 
+
 # 启动任务
 @driver.on_startup
 async def startup() -> None:
     """启动时初始化"""
+    logger.info("✅ 监控器启动中...")
+    
     _ = bounty_manager.load_data()
     import asyncio
     _ = asyncio.create_task(fissure_monitor.start())
     _ = asyncio.create_task(zariman_bounty_monitor.start())
     _ = asyncio.create_task(void_trader_monitor.start())
-    logger.info("🚀 所有监控器已启动")
+    
+    logger.info("🚀 系统就绪")
 
 
 # 市场报告调度器（在bot初始化完成后启动）
@@ -65,17 +70,19 @@ async def on_bot_connect(bot) -> None:
     """当bot连接成功后初始化市场报告调度器"""
     from managers.market_report_scheduler import market_report_scheduler
 
+    logger.info("✅ Bot 已连接")
+    
     # 设置扎里曼赏金监控器的bot实例
     zariman_bounty_monitor.set_bot(bot)
-    logger.info("✅ 扎里曼赏金监控器已设置bot实例")
 
     if not config.is_market_report_enabled():
-        logger.info("市场报告功能已禁用")
+        logger.info("📊 市场报告功能已禁用")
         return
-
+    
     market_report_scheduler.set_bot(bot)
     market_report_scheduler.start()
-    logger.info("📊 市场报告调度器已启动")
+    logger.info("📊 市场报告调度器: 每周一 10:00 北京时间")
+
 
 # 清理任务
 @driver.on_shutdown
@@ -89,15 +96,11 @@ async def shutdown() -> None:
     await cache.clear_expired()
     logger.info("🐱 超级小莲已安全退出")
 
+
 # 启动
 if __name__ == "__main__":
-    bot_name: str = config.personality.get('name', '超级小莲')
-    platform: str = config.wfm_api.get('platform', 'pc')
+    print_banner()
     bot_qq = config.get_bot_qq_number()
-
-    logger.info(f"🐱 {bot_name} 启动中...")
-    logger.info(f"✨ 版本: 猫娘@回应版 v8.0 (游戏状态查询整合+裂缝订阅)")
-    logger.info(f"📞 QQ: {bot_qq} | 🌐 API: {config.wfm_api.get('base_url')} | 🔧 平台: {platform}")
-    logger.info("=" * 60)
-
+    platform = config.wfm_api.get('platform', 'pc')
+    logger.info(f"📱 Bot: {bot_qq} | 平台: {platform}")
     nonebot.run(host="0.0.0.0", port=8080)

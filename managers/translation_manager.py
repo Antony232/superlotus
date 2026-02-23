@@ -275,7 +275,7 @@ class GameStatusTranslator:
                 if os.path.exists(path):
                     with open(path, 'r', encoding='utf-8') as f:
                         self.sol_nodes = json.load(f)
-                    self.logger.info(f"✅ 成功从 {path} 加载节点数据")
+                    self.logger.debug(f"✅ 成功从 {path} 加载节点数据")
                     sol_nodes_found = True
                     break
 
@@ -290,7 +290,7 @@ class GameStatusTranslator:
                 if os.path.exists(path_lang):
                     with open(path_lang, 'r', encoding='utf-8') as f:
                         self.languages = json.load(f)
-                    self.logger.info(f"✅ 成功从 {path_lang} 加载语言数据")
+                    self.logger.debug(f"✅ 成功从 {path_lang} 加载语言数据")
                     languages_found = True
                     break
 

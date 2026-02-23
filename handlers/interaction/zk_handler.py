@@ -67,7 +67,7 @@ def load_weapon_mapping(json_file: str = "data/game_data/riven_weapons.json") ->
     weapon_map = {}
     try:
         file_path = Path(json_file)
-        logger.info(f"📂 尝试加载武器映射文件：{file_path.absolute()}")
+        logger.debug(f"📂 尝试加载武器映射文件：{file_path.absolute()}")
 
         # 检查文件是否存在
         if not file_path.exists():
@@ -80,7 +80,7 @@ def load_weapon_mapping(json_file: str = "data/game_data/riven_weapons.json") ->
 
         # 解析JSON数据（需为数组格式）
         if isinstance(data, list):
-            logger.info(f"✅ 成功读取JSON数组，共{len(data)}条数据")
+            logger.debug(f"✅ 成功读取JSON数组，共{len(data)}条数据")
             for idx, item in enumerate(data):
                 if isinstance(item, dict):
                     zh_name = item.get("weapon_name_zh")

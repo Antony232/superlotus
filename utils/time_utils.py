@@ -1,15 +1,81 @@
 """
-时间工具模块 - 存放时间格式化函数
-避免在多个管理器中重复定义
+时间工具模块 - 统一时间处理函数
+消除各管理器中的重复时间处理代码
 """
-
 from datetime import datetime, timezone, timedelta
-from typing import Optional
+from typing import Optional, Union
+
+from core.constants import TimeZones
+
+
+def parse_mongodb_timestamp(ts: Union[int, float, str, dict, None]) -> Optional[datetime]:
+    """
+    解析 MongoDB 时间戳（支持多种格式）
+    
+    Args:
+        ts: 时间戳，支持以下格式：
+            - int/float: 毫秒时间戳
+            - str: 毫秒时间戳字符串或 ISO 格式字符串
+            - dict: MongoDB 格式 {"$date": {"$numberLong": "1234567890"}}
+            
+    Returns:
+        UTC datetime 对象，解析失败返回 None
+    """
+    if ts is None:
+        return None
+    
+    try:
+        # MongoDB 格式: {"$date": {"$numberLong": "1234567890"}}
+        if isinstance(ts, dict):
+            if '$date' in ts:
+                date_val = ts['$date']
+                if isinstance(date_val, dict) and '$numberLong' in date_val:
+                    ts = int(date_val['$numberLong'])
+                else:
+                    ts = date_val
+            else:
+                return None
+        
+        # 字符串格式
+        if isinstance(ts, str):
+            # ISO 格式
+            if 'T' in ts:
+                return datetime.fromisoformat(ts.replace('Z', '+00:00'))
+            # 毫秒时间戳字符串
+            ts = int(ts)
+        
+        # 数字格式（毫秒时间戳）
+        if isinstance(ts, (int, float)):
+            return datetime.utcfromtimestamp(ts / 1000)
+            
+    except (ValueError, TypeError, OSError) as e:
+        pass
+    
+    return None
+
+
+def to_beijing_time(dt: datetime) -> datetime:
+    """
+    将 datetime 转换为北京时间
+    
+    Args:
+        dt: 任意时区的 datetime 对象
+        
+    Returns:
+        北京时间 datetime 对象（无时区信息）
+    """
+    beijing_tz = timezone(timedelta(hours=TimeZones.BEIJING_OFFSET))
+    
+    if dt.tzinfo is None:
+        # 假设是 UTC 时间
+        dt = dt.replace(tzinfo=timezone.utc)
+    
+    return dt.astimezone(beijing_tz).replace(tzinfo=None)
 
 
 def format_timestamp(timestamp_ms: int, fmt: str = '%Y-%m-%d %H:%M:%S') -> str:
     """
-    格式化毫秒时间戳为可读字符串
+    格式化毫秒时间戳为可读字符串（北京时间）
 
     Args:
         timestamp_ms: 毫秒时间戳
@@ -111,3 +177,87 @@ def format_countdown(expiry_timestamp_ms: int) -> str:
     if remaining == "已结束" or remaining == "未知":
         return remaining
     return f"{remaining}后更新"
+
+
+def calculate_time_left(time_input: Union[int, float, str, dict, None]) -> str:
+    """
+    通用时间计算函数 - 支持毫秒时间戳和ISO字符串
+    
+    兼容 game_status_manager.calculate_time_left 的功能
+
+    Args:
+        time_input: 到期时间（支持多种格式）
+
+    Returns:
+        剩余时间字符串，如 "2小时30分"
+    """
+    if not time_input:
+        return "未知"
+    
+    expiry_utc = parse_mongodb_timestamp(time_input)
+    if expiry_utc is None:
+        return "未知"
+    
+    # 计算剩余时间
+    now_utc = datetime.utcnow() if expiry_utc.tzinfo is None else datetime.now(timezone.utc)
+    
+    if expiry_utc.tzinfo is None:
+        time_left = expiry_utc - now_utc.replace(tzinfo=None)
+    else:
+        time_left = expiry_utc - now_utc
+    
+    total_seconds = int(time_left.total_seconds())
+    
+    if total_seconds <= 0:
+        return "已过期"
+    
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    
+    if hours > 0:
+        return f"{hours}小时{minutes}分"
+    else:
+        return f"{minutes}分{seconds}秒"
+
+
+def convert_to_beijing(time_input: Union[int, float, str, dict, None]) -> str:
+    """
+    将时间戳或ISO字符串转换为北京时间字符串
+    
+    兼容 game_status_manager.convert_to_beijing 的功能
+
+    Args:
+        time_input: 时间输入（支持多种格式）
+
+    Returns:
+        北京时间字符串，格式 "YYYY-MM-DD HH:MM:SS"
+    """
+    if not time_input:
+        return "未知时间"
+    
+    dt_utc = parse_mongodb_timestamp(time_input)
+    if dt_utc is None:
+        return "时间解析错误"
+    
+    dt_beijing = to_beijing_time(dt_utc)
+    return dt_beijing.strftime('%Y-%m-%d %H:%M:%S')
+
+
+def get_current_beijing_time() -> str:
+    """
+    获取当前北京时间字符串
+
+    Returns:
+        北京时间字符串，格式 "YYYY-MM-DD HH:MM:SS"
+    """
+    return (datetime.utcnow() + timedelta(hours=TimeZones.BEIJING_OFFSET)).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def get_current_beijing_hour_minute() -> str:
+    """
+    获取当前北京时间（仅时分）
+
+    Returns:
+        北京时间字符串，格式 "HH:MM"
+    """
+    return (datetime.utcnow() + timedelta(hours=TimeZones.BEIJING_OFFSET)).strftime('%H:%M')

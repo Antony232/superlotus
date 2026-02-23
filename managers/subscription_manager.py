@@ -78,7 +78,7 @@ class SubscriptionManager:
                     with open(self.data_file, 'r', encoding='utf-8') as f:
                         data = json.load(f)
                     self.subscriptions = [FissureSubscription.from_dict(item) for item in data]
-                    logger.info(f"✅ 加载了 {len(self.subscriptions)} 个裂缝订阅")
+                    logger.debug(f"✅ 加载了 {len(self.subscriptions)} 个裂缝订阅")
                 else:
                     self.subscriptions = []
                     logger.info("📝 订阅文件不存在，创建空列表")
