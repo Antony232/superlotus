@@ -1,7 +1,7 @@
 # handlers/interaction/at_handler.py
 import random
 import nonebot
-from nonebot.adapters.onebot.v11 import Bot, Event, Message
+from nonebot.adapters.onebot.v11 import Bot, Event, Message, GroupMessageEvent, PrivateMessageEvent
 from nonebot import on_message
 from nonebot.rule import Rule, to_me
 import logging
@@ -32,7 +32,11 @@ at_handler = on_message(
 
 @at_handler.handle()
 async def handle_at_message(bot: Bot, event: Event):
-    """处理@机器人的消息（修复方法引用+优化查询逻辑）"""
+    """处理@机器人的消息
+    
+    群聊: 只进行闲聊，不查询
+    私聊: 先尝试查询，失败再闲聊
+    """
     logger.info(f"开始处理@消息: {event.get_plaintext()}")
     try:
         message_without_at = extract_message_without_at(event).strip()
@@ -44,10 +48,17 @@ async def handle_at_message(bot: Bot, event: Event):
             await bot.send(event, Message(f"🐾 {response}"))
             return
 
-        # 使用公共工具尝试价格查询
+        # 群聊：只进行闲聊，不查询
+        if isinstance(event, GroupMessageEvent):
+            logger.info(f"群聊@消息，进行闲聊: '{message_without_at}'")
+            response = await _generate_intelligent_response(message_without_at)
+            await bot.send(event, Message(response))
+            return
+
+        # 私聊：先尝试价格查询
         result = await query_item_price(message_without_at)
         if result.success and result.english_slug:
-            logger.info(f"@价格查询成功: '{message_without_at}' -> '{result.english_slug}'")
+            logger.info(f"私聊@价格查询成功: '{message_without_at}' -> '{result.english_slug}'")
             # 获取显示名称
             chinese_names = translation_manager.get_chinese_names(result.english_slug)
             display_name = chinese_names[0] if chinese_names else message_without_at
