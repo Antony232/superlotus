@@ -23,7 +23,8 @@ MISSION_TYPE_TRANSLATIONS = {
     'MT_RETRIEVAL': '劫持',
     'MT_HIVE': '清巢',
     'MT_CORRUPTION': '虚空洪流',
-    'MT_ASSAULT': '强袭'
+    'MT_ASSAULT': '强袭',
+    'MT_ENDLESS_CAPTURE': '传承种收割'
 }
 
 # 派系翻译映射

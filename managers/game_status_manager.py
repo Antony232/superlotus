@@ -217,7 +217,13 @@ class GameStatusManager:
                     mission_type_translated = translator.translate_mission_type(mission_type)
 
                     # 提取星球名（从节点翻译结果中拆分，若未包含则补充）
-                    planet_map = game_status_config.planet_map
+                    planet_map = {
+                        '地球': '地球', '金星': '金星', '水星': '水星', '火星': '火星',
+                        '火卫二': '火卫二', '谷神星': '穀神星', '木星': '木星', '木卫二': '木卫二',
+                        '土星': '土星', '天王星': '天王星', '海王星': '海王星', '冥王星': '冥王星',
+                        '阋神星': '阋神星', '虚空': '虚空', '赤毒要塞': 'Kuva 要塞', '月球': '月球',
+                        '扎里曼': '扎里曼'
+                    }
                     planet_name = ""
                     for planet_cn, planet_display in planet_map.items():
                         if planet_cn in node_name:
@@ -251,7 +257,13 @@ class GameStatusManager:
                     mission_type_translated = translator.translate_mission_type(mission_type)
 
                     # 提取星球名
-                    planet_map = game_status_config.planet_map
+                    planet_map = {
+                        '地球': '地球', '金星': '金星', '水星': '水星', '火星': '火星',
+                        '火卫二': '火卫二', '谷神星': '穀神星', '木星': '木星', '木卫二': '木卫二',
+                        '土星': '土星', '天王星': '天王星', '海王星': '海王星', '冥王星': '冥王星',
+                        '阋神星': '阋神星', '虚空': '虚空', '赤毒要塞': 'Kuva 要塞', '月球': '月球',
+                        '扎里曼': '扎里曼'
+                    }
                     planet_name = ""
                     for planet_cn, planet_display in planet_map.items():
                         if planet_cn in node_name:

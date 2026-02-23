@@ -34,17 +34,7 @@ class Config:
             },
             'cache': {
                 'enabled': True,
-                'path': './cache',
-                # 缓存过期时间配置（秒）
-                'ttl': {
-                    'item_details': 3600,        # 物品详情缓存 1 小时
-                    'orders': 300,               # 订单缓存 5 分钟
-                    'bounty': 300,               # 赏金任务缓存 5 分钟
-                    'nightwave': 3600,           # 午夜电波缓存 1 小时
-                    'world_state': 300,          # 世界状态缓存 5 分钟
-                    'void_trader': 300,          # 虚空商人缓存 5 分钟
-                    'market_report': 86400,      # 市场报告缓存 24 小时
-                }
+                'path': './cache'
             },
             'catgirl_personality': {
                 'name': '超级小莲',

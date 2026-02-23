@@ -6,7 +6,6 @@ import logging
 from typing import Dict, List, Tuple, Optional
 from pathlib import Path
 from utils.aliases_config import WARFRAME_PART_ALIASES, WEAPON_PART_ALIASES  # 导入统一别名
-from utils.game_status_config import game_status_config  # 导入统一配置
 
 # 导入模糊匹配器（保持原有逻辑）
 try:
@@ -405,8 +404,16 @@ class GameStatusTranslator:
             if isinstance(value, dict) and value.get('en') == english_text:
                 return value.get('zh', english_text)
 
-        # 使用统一的星球名称映射
-        planet_map = game_status_config.planet_map
+        # 简单的星球名称映射
+        planet_map = {
+            'Earth': '地球', 'Venus': '金星', 'Mercury': '水星',
+            'Mars': '火星', 'Deimos': '火卫二', 'Phobos': '火卫一',
+            'Ceres': '谷神星', 'Jupiter': '木星', 'Europa': '木卫二',
+            'Saturn': '土星', 'Uranus': '天王星', 'Neptune': '海王星',
+            'Pluto': '冥王星', 'Sedna': '赛德娜', 'Eris': '阋神星',
+            'Void': '虚空', 'Kuva Fortress': '赤毒要塞',
+            'Lua': '月球', 'Zariman': '扎里曼'
+        }
 
         for eng, chi in planet_map.items():
             if english_text.startswith(eng):

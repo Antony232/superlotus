@@ -6,7 +6,6 @@ from pathlib import Path
 from datetime import datetime
 import logging
 from core.translators.challenge_translator import ChallengeTranslator
-from managers.translation_manager import translator as game_translator  # 统一翻译器
 
 logger = logging.getLogger(__name__)
 
@@ -373,7 +372,7 @@ class BountyManager:
                 ally_path = cycle.get('ally', '')
 
                 # 翻译节点名称
-                node_name = game_translator.translate_node(node)
+                node_name = self._translate_node(node)
 
                 # 获取challenge信息（传入ally_path以处理盟友相关标记）
                 info = self._get_challenge_info(challenge_path, ally_path)
@@ -472,7 +471,7 @@ class BountyManager:
                 ally_path = cycle.get('ally', '')
 
                 # 翻译节点名称
-                node_name = game_translator.translate_node(node)
+                node_name = self._translate_node(node)
 
                 # 获取challenge信息
                 info = self._get_challenge_info(challenge_path, ally_path)
