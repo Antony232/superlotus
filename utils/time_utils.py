@@ -4,7 +4,71 @@
 """
 
 from datetime import datetime, timezone, timedelta
-from typing import Optional
+from typing import Optional, Union
+
+
+# 北京时区
+BEIJING_TIMEZONE = timezone(timedelta(hours=8))
+
+
+def convert_to_beijing(time_input: Union[int, float, str, dict]) -> str:
+    """
+    将各种格式的时间转换为北京时间字符串
+
+    Args:
+        time_input: 时间输入，支持以下格式：
+            - int/float: 秒级时间戳
+            - str: ISO 格式时间字符串
+            - dict: {'$date': {'$numberLong': '1234567890000'}} 毫秒时间戳
+
+    Returns:
+        北京时间字符串，格式为 '%m-%d %H:%M'
+    """
+    try:
+        if isinstance(time_input, dict):
+            # 处理 {'$date': {'$numberLong': 'xxx'}} 格式
+            timestamp_ms = int(time_input.get('$date', {}).get('$numberLong', 0))
+            dt = datetime.fromtimestamp(timestamp_ms / 1000, tz=BEIJING_TIMEZONE)
+        elif isinstance(time_input, (int, float)):
+            # 秒级时间戳
+            dt = datetime.fromtimestamp(time_input, tz=BEIJING_TIMEZONE)
+        elif isinstance(time_input, str):
+            # ISO 格式字符串
+            dt = datetime.fromisoformat(time_input.replace('Z', '+00:00'))
+            dt = dt.astimezone(BEIJING_TIMEZONE)
+        else:
+            return "未知时间"
+
+        return dt.strftime('%m-%d %H:%M')
+    except Exception:
+        return "未知时间"
+
+
+def convert_to_beijing_full(time_input: Union[int, float, str, dict]) -> str:
+    """
+    将各种格式的时间转换为完整北京时间字符串
+
+    Args:
+        time_input: 时间输入
+
+    Returns:
+        北京时间字符串，格式为 '%Y-%m-%d %H:%M:%S'
+    """
+    try:
+        if isinstance(time_input, dict):
+            timestamp_ms = int(time_input.get('$date', {}).get('$numberLong', 0))
+            dt = datetime.fromtimestamp(timestamp_ms / 1000, tz=BEIJING_TIMEZONE)
+        elif isinstance(time_input, (int, float)):
+            dt = datetime.fromtimestamp(time_input, tz=BEIJING_TIMEZONE)
+        elif isinstance(time_input, str):
+            dt = datetime.fromisoformat(time_input.replace('Z', '+00:00'))
+            dt = dt.astimezone(BEIJING_TIMEZONE)
+        else:
+            return "未知时间"
+
+        return dt.strftime('%Y-%m-%d %H:%M:%S')
+    except Exception:
+        return "未知时间"
 
 
 def format_timestamp(timestamp_ms: int, fmt: str = '%Y-%m-%d %H:%M:%S') -> str:
@@ -111,3 +175,47 @@ def format_countdown(expiry_timestamp_ms: int) -> str:
     if remaining == "已结束" or remaining == "未知":
         return remaining
     return f"{remaining}后更新"
+
+
+def calculate_time_left(expiry_timestamp_ms: int) -> dict:
+    """
+    计算剩余时间的详细信息
+
+    Args:
+        expiry_timestamp_ms: 到期时间戳（毫秒）
+
+    Returns:
+        包含天、小时、分钟、秒的字典
+    """
+    try:
+        now = datetime.now().timestamp() * 1000
+        time_left = max(0, expiry_timestamp_ms - now)
+
+        days = int(time_left / (1000 * 60 * 60 * 24))
+        hours = int((time_left % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+        minutes = int((time_left % (1000 * 60 * 60)) / (1000 * 60))
+        seconds = int((time_left % (1000 * 60)) / 1000)
+
+        return {
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds,
+            'total_ms': time_left,
+            'is_expired': time_left <= 0
+        }
+    except Exception:
+        return {
+            'days': 0, 'hours': 0, 'minutes': 0, 'seconds': 0,
+            'total_ms': 0, 'is_expired': True
+        }
+
+
+def get_current_beijing_time() -> datetime:
+    """
+    获取当前北京时间
+
+    Returns:
+        当前北京时间的 datetime 对象
+    """
+    return datetime.now(BEIJING_TIMEZONE)

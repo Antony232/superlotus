@@ -44,6 +44,33 @@ class GameStatusConfig:
             "Parvos Granum", "Orb Vallis", "Steel Path", "Void"
         ]
 
+        # 星球名称映射（英文 -> 中文）- 统一配置，避免重复定义
+        self.planet_map = {
+            'Mercury': '水星',
+            'Venus': '金星',
+            'Earth': '地球',
+            'Mars': '火星',
+            'Jupiter': '木星',
+            'Saturn': '土星',
+            'Uranus': '天王星',
+            'Neptune': '海王星',
+            'Pluto': '冥王星',
+            'Sedna': '赛德娜',
+            'Europa': '欧罗巴',
+            'Eris': '阋神星',
+            'Deimos': '火卫二',
+            'Phobos': '火卫一',
+            'Lua': '月球',
+            'Void': '虚空',
+            'EarthNight': '地球',
+            'EarthDay': '地球',
+            'VenusNight': '金星',
+            'VenusDay': '金星',
+            'Ceres': '穀神星',
+            'SaturnRings': '土星',
+            'JupiterChoir': '木星',
+        }
+
         # 任务类型映射
         self.mission_types = {
             "defense": "防御",
