@@ -7,11 +7,15 @@ import logging
 from typing import Optional
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
+from pytz import timezone
 
 from services.market_report_service import market_report_service
 from config import config
 
 logger = logging.getLogger(__name__)
+
+# 北京时区
+BEIJING_TZ = timezone('Asia/Shanghai')
 
 
 class MarketReportScheduler:
@@ -83,7 +87,12 @@ class MarketReportScheduler:
             hour = config.market_report_settings.get('schedule_hour', 10)
             minute = config.market_report_settings.get('schedule_minute', 0)
 
-            trigger = CronTrigger(day_of_week=day_of_week, hour=hour, minute=minute)
+            trigger = CronTrigger(
+                day_of_week=day_of_week, 
+                hour=hour, 
+                minute=minute,
+                timezone=BEIJING_TZ  # 使用北京时间
+            )
 
             # 添加任务
             self.scheduler.add_job(
@@ -101,7 +110,7 @@ class MarketReportScheduler:
             # 将数字转换为中文星期几
             weekdays = ['一', '二', '三', '四', '五', '六', '日']
             weekday_str = weekdays[day_of_week] if 0 <= day_of_week <= 6 else f'未知({day_of_week})'
-            logger.info(f"市场报告调度器已启动（每周{weekday_str} {hour:02d}:{minute:02d}）")
+            logger.info(f"市场报告调度器已启动（每周{weekday_str} {hour:02d}:{minute:02d} 北京时间）")
 
         except Exception as e:
             logger.error(f"启动调度器失败: {e}", exc_info=True)
