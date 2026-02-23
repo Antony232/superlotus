@@ -62,7 +62,12 @@ def setup_logger(level=None):
     
     # 激进抑制第三方库日志
     third_party_loggers = [
-        "nonebot", "uvicorn", "uvicorn.error", "uvicorn.access",
+        # nonebot 相关
+        "nonebot", "nonebot.adapters", "nonebot.internal", "nonebot.matcher",
+        "nonebot.log", "nonebot.plugin", "nonebot.rule",
+        # uvicorn
+        "uvicorn", "uvicorn.error", "uvicorn.access",
+        # 其他
         "websockets", "aiohttp", "asyncio", "multipart",
         "urllib3", "requests", "charset_normalizer", "httpx",
         "httpcore", "anyio", "h11", "ssl", "PIL"
@@ -70,6 +75,14 @@ def setup_logger(level=None):
     
     for name in third_party_loggers:
         logging.getLogger(name).setLevel(logging.CRITICAL)
+    
+    # 禁用 nonebot 内置日志处理器
+    try:
+        import nonebot.log
+        nonebot.log.logger.handlers.clear()
+        nonebot.log.logger.setLevel(logging.CRITICAL)
+    except Exception:
+        pass
     
     return root_logger
 

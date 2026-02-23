@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 async def is_at_me_event(event: Event) -> bool:
     """判断是否@了机器人事件"""
     result = is_at_me(event)
-    logger.info(f"检查@消息: {event.get_plaintext()[:50]}, is_at_me: {result}")
+    logger.debug(f"检查@消息: {event.get_plaintext()[:50]}, is_at_me: {result}")
     return result
 
 
@@ -37,10 +37,10 @@ async def handle_at_message(bot: Bot, event: Event):
     群聊: 只进行闲聊，不查询
     私聊: 先尝试查询，失败再闲聊
     """
-    logger.info(f"开始处理@消息: {event.get_plaintext()}")
+    logger.debug(f"开始处理@消息: {event.get_plaintext()}")
     try:
         message_without_at = extract_message_without_at(event).strip()
-        logger.info(f"去除@后的消息内容: '{message_without_at}'")
+        logger.debug(f"去除@后的消息内容: '{message_without_at}'")
 
         # 纯@消息
         if not message_without_at:
@@ -50,7 +50,7 @@ async def handle_at_message(bot: Bot, event: Event):
 
         # 群聊：只进行闲聊，不查询
         if isinstance(event, GroupMessageEvent):
-            logger.info(f"群聊@消息，进行闲聊: '{message_without_at}'")
+            logger.debug(f"群聊@消息，进行闲聊: '{message_without_at}'")
             response = await _generate_intelligent_response(message_without_at)
             await bot.send(event, Message(response))
             return
@@ -58,7 +58,7 @@ async def handle_at_message(bot: Bot, event: Event):
         # 私聊：先尝试价格查询
         result = await query_item_price(message_without_at)
         if result.success and result.english_slug:
-            logger.info(f"私聊@价格查询成功: '{message_without_at}' -> '{result.english_slug}'")
+            logger.debug(f"私聊@价格查询成功: '{message_without_at}' -> '{result.english_slug}'")
             # 获取显示名称
             chinese_names = translation_manager.get_chinese_names(result.english_slug)
             display_name = chinese_names[0] if chinese_names else message_without_at
@@ -105,7 +105,7 @@ async def _generate_intelligent_response(message: str) -> str:
         try:
             ai_response = await ai_manager.chat(message)
             if ai_response:
-                logger.info(f"AI对话成功: {message[:20]}...")
+                logger.debug(f"AI对话成功: {message[:20]}...")
                 return ai_response
         except Exception as e:
             logger.warning(f"AI对话失败，回退到预设回复: {e}")
