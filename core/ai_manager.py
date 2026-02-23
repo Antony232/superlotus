@@ -1,4 +1,4 @@
-# core/qwen_manager.py - 千问API管理器
+# core/ai_manager.py - AI API管理器 (DeepSeek)
 import aiohttp
 import json
 import logging
@@ -8,16 +8,17 @@ from config import config
 logger = logging.getLogger(__name__)
 
 
-class QwenManager:
-    """千问API管理器，负责与千问API的交互"""
+class AIManager:
+    """AI API管理器，负责与 DeepSeek API 的交互"""
 
     def __init__(self):
-        self.api_key = config.config.get('qwen_api', {}).get('api_key', '')
-        self.base_url = config.config.get('qwen_api', {}).get('base_url', '')
-        self.model = config.config.get('qwen_api', {}).get('model', 'qwen-max')
-        self.timeout = config.config.get('qwen_api', {}).get('timeout', 20)  # 增加超时时间到20秒
-        self.max_retries = config.config.get('qwen_api', {}).get('max_retries', 2)
-        self.enabled = config.config.get('qwen_api', {}).get('enabled', True)
+        ai_config = config.config.get('ai_api', {})
+        self.api_key = ai_config.get('api_key', '')
+        self.base_url = ai_config.get('base_url', 'https://api.deepseek.com/v1/chat/completions')
+        self.model = ai_config.get('model', 'deepseek-chat')
+        self.timeout = ai_config.get('timeout', 20)
+        self.max_retries = ai_config.get('max_retries', 2)
+        self.enabled = ai_config.get('enabled', True)
 
         # 系统提示词，保持猫娘人设
         self.system_prompt = """你是"超级小莲"，一只可爱、活泼、专业的Warframe游戏助手猫娘。
@@ -43,7 +44,7 @@ class QwenManager:
 - 回答要简洁明了，不要过于冗长"""
 
     async def chat(self, user_message: str, conversation_history: Optional[list] = None) -> str:
-        """调用千问API进行对话
+        """调用 AI API 进行对话
 
         Args:
             user_message: 用户的消息
@@ -53,7 +54,7 @@ class QwenManager:
             API返回的回复内容
         """
         if not self.enabled or not self.api_key:
-            logger.warning("千问API未启用或未配置API密钥")
+            logger.warning("AI API未启用或未配置API密钥")
             return "喵~ 小莲现在无法使用智能对话功能呢，稍后再试试吧~"
 
         try:
@@ -73,22 +74,22 @@ class QwenManager:
                     response = await self._call_api(messages)
                     return response
                 except Exception as e:
-                    logger.warning(f"千问API调用失败，第{attempt + 1}次重试: {e}")
+                    logger.warning(f"AI API调用失败，第{attempt + 1}次重试: {e}")
                     if attempt == self.max_retries - 1:
                         raise
 
         except aiohttp.ClientTimeout:
-            logger.error(f"千问API调用超时")
+            logger.error("AI API调用超时")
             return "喵~ 小莲思考的时间有点长呢，主人能稍等一下吗？"
         except aiohttp.ClientError as e:
-            logger.error(f"网络错误，无法连接千问API: {e}")
+            logger.error(f"网络错误，无法连接AI API: {e}")
             return "喵~ 小莲的网络有点问题呢，稍后再试试吧~"
         except Exception as e:
-            logger.error(f"千问API调用异常: {e}", exc_info=True)
+            logger.error(f"AI API调用异常: {e}", exc_info=True)
             return "喵~ 小莲有点困惑呢，主人能再说清楚一点吗？"
 
     async def _call_api(self, messages: list) -> str:
-        """实际调用千问API
+        """实际调用 AI API (OpenAI 兼容格式)
 
         Args:
             messages: 消息列表
@@ -101,18 +102,12 @@ class QwenManager:
             "Content-Type": "application/json"
         }
 
-        # 千问API的正确请求格式
+        # OpenAI 兼容格式
         payload = {
             "model": self.model,
-            "input": {
-                "messages": messages
-            },
-            "parameters": {
-                "temperature": 0.8,
-                "top_p": 0.9,
-                "max_tokens": 500,
-                "result_format": "message"
-            }
+            "messages": messages,
+            "temperature": 0.8,
+            "max_tokens": 500
         }
 
         timeout = aiohttp.ClientTimeout(total=self.timeout)
@@ -125,25 +120,27 @@ class QwenManager:
             ) as response:
                 if response.status != 200:
                     error_text = await response.text()
-                    logger.error(f"千问API返回错误状态码: {response.status}, 错误信息: {error_text}")
+                    logger.error(f"AI API返回错误状态码: {response.status}, 错误信息: {error_text}")
                     raise Exception(f"API返回错误状态码: {response.status}")
 
                 result = await response.json()
 
-                # 解析响应 - 千问API的响应格式
-                if 'output' in result and 'choices' in result['output']:
-                    choices = result['output']['choices']
-                    if len(choices) > 0 and 'message' in choices[0]:
-                        content = choices[0]['message']['content']
-                        return content
-                else:
-                    logger.error(f"千问API响应格式异常: {result}")
-                    raise Exception("API响应格式异常")
+                # 解析响应 - OpenAI 兼容格式
+                if 'choices' in result and len(result['choices']) > 0:
+                    choice = result['choices'][0]
+                    if 'message' in choice and 'content' in choice['message']:
+                        return choice['message']['content']
+                
+                logger.error(f"AI API响应格式异常: {result}")
+                raise Exception("API响应格式异常")
 
     def is_enabled(self) -> bool:
-        """检查千问API是否启用"""
+        """检查 AI API 是否启用"""
         return self.enabled and bool(self.api_key)
 
 
-# 全局千问管理器实例
-qwen_manager = QwenManager()
+# 全局 AI 管理器实例
+ai_manager = AIManager()
+
+# 兼容旧代码的别名
+qwen_manager = ai_manager

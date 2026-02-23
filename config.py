@@ -82,12 +82,12 @@ class Config:
                     "喵~ 主人今天想查询什么物品呢？"
                 ]
             },
-            'qwen_api': {
-                'enabled': os.getenv('QWEN_ENABLED', 'true').lower() == 'true',
-                'api_key': os.getenv('QWEN_API_KEY', ''),
-                'base_url': 'https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation',
-                'model': 'qwen-max',
-                'timeout': 10,
+            'ai_api': {
+                'enabled': os.getenv('AI_ENABLED', 'true').lower() == 'true',
+                'api_key': os.getenv('AI_API_KEY', 'sk-c5d26cfbe5a24ccf891edde7511d96ff'),
+                'base_url': 'https://api.deepseek.com/v1/chat/completions',
+                'model': 'deepseek-chat',
+                'timeout': 20,
                 'max_retries': 2
             },
             'market_report': {

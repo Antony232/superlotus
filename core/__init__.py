@@ -2,6 +2,7 @@
 from .logger_config import setup_logger
 from .cache_manager import cache
 from .api_manager import api_manager
+from .ai_manager import ai_manager, qwen_manager  # 兼容旧代码
 from .constants import (
     CacheTTL, APIUrls, Defaults, FissureTiers, 
     ConquestTypes, PlainCycles, TimeZones, PlanetNames,
@@ -14,6 +15,8 @@ __all__ = [
     "setup_logger", 
     "cache", 
     "api_manager", 
+    "ai_manager",
+    "qwen_manager",  # 兼容旧代码
     "ResponseFormatter",
     "CacheTTL",
     "APIUrls", 

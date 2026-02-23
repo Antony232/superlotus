@@ -98,7 +98,7 @@
    复制 `.env.example` 为 `.env` 并填写相关配置：
    - `BOT_QQ_NUMBER`: 机器人的 QQ 号
    - `WFM_API_BASE_URL`: Warframe Market API 地址
-   - `QWEN_API_KEY`: (可选) 通义千问 API，用于增强对话能力
+   - `AI_API_KEY`: (可选) DeepSeek API，用于增强对话能力
 
 4. **启动机器人**
    ```bash
