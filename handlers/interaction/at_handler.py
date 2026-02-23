@@ -10,6 +10,7 @@ from config import config
 from managers.translation_manager import translation_manager
 from utils.price_query_utils import query_item_price  # 导入公共价格查询工具
 from core.formatters.response_formatter import ResponseFormatter
+from core.ai_manager import ai_manager
 
 logger = logging.getLogger(__name__)
 
@@ -77,10 +78,33 @@ async def handle_at_message(bot: Bot, event: Event):
 
 
 async def _generate_intelligent_response(message: str) -> str:
-    """生成智能回应（修复方法引用）"""
-    message_lower = message.lower()
+    """生成智能回应（优先使用AI，失败时回退到预设回复）"""
     emoji = config.get_random_emoji()
+    message_lower = message.lower()
+    
+    # 快速响应：功能询问（不需要AI）
+    functions = ['你能做什么', '功能', '会什么', 'help', '有什么用', '干嘛的']
+    if any(func in message_lower for func in functions):
+        content = ResponseFormatter.format_full_help().split('\n')[1:]
+        joined_content = '\n'.join(content)
+        return f"{emoji} {joined_content}"
+    
+    # 尝试使用 AI 对话
+    if ai_manager.is_enabled():
+        try:
+            ai_response = await ai_manager.chat(message)
+            if ai_response:
+                logger.info(f"AI对话成功: {message[:20]}...")
+                return ai_response
+        except Exception as e:
+            logger.warning(f"AI对话失败，回退到预设回复: {e}")
+    
+    # AI 不可用或失败时的预设回复
+    return _get_fallback_response(message_lower, emoji)
 
+
+def _get_fallback_response(message_lower: str, emoji: str) -> str:
+    """获取预设回复（AI不可用时）"""
     # 问候类
     greetings = ['你好', 'hello', 'hi', '早上好', '晚上好', '嗨', '在吗']
     if any(greeting in message_lower for greeting in greetings):
@@ -107,13 +131,6 @@ async def _generate_intelligent_response(message: str) -> str:
             "（摇尾巴）能帮到主人就好啦！"
         ])
         return f"{emoji} {content}"
-
-    # 询问功能
-    functions = ['你能做什么', '功能', '会什么', 'help', '有什么用', '干嘛的']
-    if any(func in message_lower for func in functions):
-        content = ResponseFormatter.format_full_help().split('\n')[1:]  # 去除标题
-        joined_content = '\n'.join(content)
-        return f"{emoji} {joined_content}"
 
     # 默认回应
     content = random.choice([
